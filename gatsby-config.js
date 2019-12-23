@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `TristanMe Blog`,
+    title: `Tristan Blog`,
     author: `tristan`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -72,6 +72,14 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        cssLoaderOptions: {
+          camelCase: false,
+        },
       },
     },
   ],
