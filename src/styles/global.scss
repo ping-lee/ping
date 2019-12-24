@@ -14,10 +14,6 @@ body.dark-mode {
   background-color: #10171d;
   color: #dfdfdf;
 
-  .navbar {
-    background-color: #1b2938;
-  }
-
   blockquote {
     color: #35464e;
   }
@@ -28,16 +24,6 @@ body.dark-mode {
       color: lightblue;
     }
   }
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  background-color: #95d3ff;
-  padding: 20px;
-  z-index: 999;
 }
 
 .content {
@@ -89,9 +75,15 @@ body.dark-mode .content button {
   color: #ee09;
 }
 
+@media(max-width: 425px) {
+  .dark-mode-toggle {
+    margin: 0 0 0 20px !important;
+  }
+}
+
 .dark-mode-toggle {
-  display: flex;
-  margin: 0 auto;
+  display: inline-block;
+  margin: 0 0 0 50px;
   & > button {
     font-size: 1.2em;
     background: none;

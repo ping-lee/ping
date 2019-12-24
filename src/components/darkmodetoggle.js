@@ -14,7 +14,7 @@ const DarkModeToggle = () => {
   return (
     <div className="dark-mode-toggle">
       
-      {darkMode.value ? <Sunny onClick={darkMode.disable} style={{height: "25px", fill: "#565d64"}} /> : <Moon onClick={darkMode.enable} style={{height: "25px"}} />}
+      {darkMode.value ? <Sunny onClick={darkMode.disable} style={{height: "25px", fill: "#565d64"}} /> : <Moon onClick={darkMode.enable} style={{height: "25px",}} />}
 
       
     </div>
