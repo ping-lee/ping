@@ -77,7 +77,10 @@ body.dark-mode .content button {
 
 @media(max-width: 425px) {
   .dark-mode-toggle {
-    margin: 0 0 0 20px !important;
+    margin: 0 0 0 25px !important;
+  }
+  header > div > h1 {
+    font-size: 2.95rem!important;
   }
 }
 
