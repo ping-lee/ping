@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tristan]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Jan 2020 09:34:38 GMT</lastBuildDate><item><title><![CDATA[Apex可以用来做什么]]></title><description><![CDATA[Oracle Application Express is a low-code development platform that enable you to build tunning, scalable, secure apps with world-class…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/Apex可以用来做什么/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/Apex可以用来做什么/</guid><pubDate>Mon, 30 Dec 2019 11:43:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Oracle Application Express is a low-code development platform that enable you to build tunning, scalable, secure apps with world-class features that can be deployed anywhere.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[2019总结]]></title><description><![CDATA[2019年5月份从就职以来的第一家公司离职，紧接着来到财大，很不幸，本应在信息中心的我调到教务处。1…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/2019年度总结/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/2019年度总结/</guid><pubDate>Fri, 27 Dec 2019 08:19:03 GMT</pubDate><content:encoded>&lt;p&gt;2019年5月份从就职以来的第一家公司离职，紧接着来到财大，很不幸，本应在信息中心的我调到教务处。18年的时候我写过一篇个人在工作上的总结，简单写了第一份工作体会和学到的编程技能。这周，中心要求我们写本年度的总结，当时的我还在百忙之中，一边处理这各种情况的调课，一边还要写完总结，真是头晕。&lt;/p&gt;
+&lt;p&gt;后来我先把事情放一边，想专心写完这份总结，但我发现头脑里就行一团浆糊，没有任何的思绪和想法。后来发现这是因为我平日的工作造成现在的一种状态。我想说明我现在做的工作和之前做的有什么不同，这种不同是如何影响到我的。&lt;/p&gt;
+&lt;p&gt;教务处，解决的是教学问题。它面向的对象有几个，一是学校内部的学生和老师，二是面向教育厅和教育局。服务或者说解答学生和教师是维持学校整个教学的正常运行，涉及到学生的有：正常我为了完成学业需要上哪几门课？时间地点是什么？有哪个老师上[1]？因为各种情况没有顺利完成课程接下来要怎么处理[2]？对每门课的学习情况需要有个量化[3]，我在哪里考试？什么时间[4]？毕业设计要怎么做[5]？怎么鉴定我最后已经拥有毕业的资格[6]？最后毕业领证、滚蛋。在这之前，针对不同专业的修读课程，教务处教研科会作一个针对年度开设专业的培养方案，配套的课程体系，它指定了这个专业修读的课程、学分、绩点[7]。涉及到教师的有：我在哪里上课？那几个班？什么时间地点[1]？考试测评那些内容[8]？我上了多少课时？做什么课题？发几篇文章[9]？&lt;/p&gt;
+&lt;p&gt;回过来再看看我实际的工作内容：先把课排完，把高楼的课调到底楼，把领导的课调到周三（大概周三看起来比较特别）。导入录成绩的课程，针对不同年级、课程设置不同的平时、期中、期末成绩占比让老师录成绩。导入结业返校的学生，得让他们考试。处理双学位学生名单、课程…。学分制教务系统需求开发跟进、测试，配合实施人员完成各项工作…。&lt;/p&gt;
+&lt;p&gt;我以前得工作是什么？写开发文档，说明书，编写应用，测试，交付。&lt;/p&gt;
+&lt;p&gt;二者的不同在于，后者的工作内容单纯，思路清晰，它和计算机打交道，解决得实际问题是技术难点，它需要查阅各类技术文档。这是纯粹单一的工作，它似乎理想，但也和现实脱钩。前者的工作，内容饱满，量且丰富，几乎没有技术难点和痛点，换句话说，他是一个普通人的工作，和现实生活更贴近，需要的是处理事情的效率还有管理方面的才能。但是，简单的重复性工作和厌烦的人工核实、保障把一个人搞疯了（谁知道哪天是个头）。虽然解决的都是人的问题，但面对的直接是人而并不是计算机，这让问题变得可以简单也可以复杂哦，如果你认为问题简单或者复杂，那你就错了，它既不简单也不复杂。&lt;/p&gt;
+&lt;p&gt;回过头来，教务处的工作让我变得怎么样了呢？首先最直观的是简单的重复性工作和维稳，保障性核实环节让我变得麻木不仁，思维停滞。过多管理，公关，人事让一个编程人员心中充满了不确定性和惶恐。喧嚣，热闹的工作环境几乎有时间也无心细定下心来想其他的事情，而时间就在指缝间偷偷溜走。&lt;/p&gt;
+&lt;p&gt;[1]排课、课表  [2]重修、选课  [3]成绩  [4]排考、考试  [5]毕业设计  [6]毕业清理  [7]培养方案  [8]出试题  [9]绩效、课时、科研成果&lt;/p&gt;</content:encoded></item><item><title><![CDATA[前方的路]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/前方的路/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/前方的路/</guid><pubDate>Wed, 25 Dec 2019 09:07:03 GMT</pubDate><content:encoded>&lt;p&gt;三年前刚毕业，面临择业的问题，那时候最在乎的是我将会在什么样的地方工作，接触什么类型的人，自己会成为怎么样的人。这种想法的起源和出生成长的环境有关，出生在郊县的小村庄，给我影响深刻的是农村人因生活的压力而表现出各种矛盾的常态，直接导致现在的我对家庭婚姻有点后怕—后怕亲密关系产生的矛盾。这是我进入社会前对家庭生活最原始的想法。&lt;/p&gt;
+&lt;p&gt;现在，我26岁。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/new-beginnings/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean. A small river named
+Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
+&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This however showed weasel&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Well uncritical so misled&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;this is very interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
+view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
+&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
+Lane. Pityful a rhetoric question ran over her cheek, then she continued her
+way. On her way she met a copy.&lt;/p&gt;
+&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with
+&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
+they abused her for their projects again and again. And if she hasn’t been
+rewritten, then they are still using her.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
+mouth. Even the all-powerful Pointing has no control about the blind texts it is
+an almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;So baboon this&lt;/li&gt;
+&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
+&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
+&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
+impassive fruitlessly shut&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
+back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
+Village and the subline of her own road, the Line Lane. Pityful a rhetoric
+question ran over her cheek, then she continued her way. On her way she met a
+copy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and
+return to its own, safe country.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
+and dragged her into their agency, where they abused her for their projects
+again and again. And if she hasn’t been rewritten, then they are still using
+her. Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts.&lt;/p&gt;
+&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
+&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+large language ocean. A small river named Duden flows by their place and
+supplies it with the necessary regelialia. It is a paradisematic country, in
+which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
+almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
+advised her not to do so, because there were thousands of bad Commas, wild
+Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
+&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
+&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
+the way. When she reached the first hills of the Italic Mountains, she had a
+last view back on the skyline of her hometown Bookmarksgrove, the headline of
+Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+rhetoric question ran over her cheek, then she continued her way. On her way she
+met a copy.&lt;/p&gt;
+&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and return
+to its own, safe country. But nothing the copy said could convince her and so it
+didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
+with Longe and Parole and dragged her into their agency, where they abused her
+for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/my-second-post/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
+eggs in brine, or packing each egg in damp, salted charcoal. In Asian
+supermarkets, these eggs are sometimes sold covered in a thick layer of salted
+charcoal paste. The eggs may also be sold with the salted paste removed,
+wrapped in plastic, and vacuum packed. From the salt curing process, the
+salted duck eggs have a briny aroma, a gelatin-like egg white and a
+firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/07827/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/88218/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/7237a/salty_egg.jpg 148w,
+/static/8058f3f26913fea3b6a89a73344fe94a/0cfdf/salty_egg.jpg 295w,
+/static/8058f3f26913fea3b6a89a73344fe94a/88218/salty_egg.jpg 590w,
+/static/8058f3f26913fea3b6a89a73344fe94a/77d57/salty_egg.jpg 885w,
+/static/8058f3f26913fea3b6a89a73344fe94a/5a917/salty_egg.jpg 1180w,
+/static/8058f3f26913fea3b6a89a73344fe94a/07827/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
