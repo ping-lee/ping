@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@ionic/react": "^4.11.7",
+    "express": "^4.17.1",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-feed": "^2.3.23",
