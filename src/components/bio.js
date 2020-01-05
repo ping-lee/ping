@@ -54,11 +54,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in Kun
-        Ming building useful things.
+        <strong>{author}</strong>，生活、工作在美丽的春城-昆明，这个网站记录了我平时的所思所感，
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          你可以在知乎关注我。
         </a>
       </p>
     </div>

@@ -9,8 +9,6 @@ import Sunny from "../../content/assets/_ionicons_svg_ios-sunny.svg";
 const DarkModeToggle = ({ ph }) => {
   const darkMode = useDarkMode(false);
 
-  console.log(darkMode.value)
-
   return (
     <div className="dark-mode-toggle">
       
