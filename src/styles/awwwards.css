@@ -385,3 +385,67 @@ img {
 block-header .box-title p:last-child {
     margin-bottom: 0;
 }
+
+/* nav */
+.nav-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 100vh;
+    background: #f4f7f6;
+    overflow-y: auto;
+    z-index: 301;
+    -webkit-transform: translateX(-320px);
+    transform: translateX(-320px);
+    transition: background 0.3s ease-in-out;
+}
+
+.nav-main .header {
+    height: 70px;
+    padding: 0 30px;
+    line-height: 70px;
+    font-size: 13px;
+    font-weight: normal;
+    background-color: #f4f7f6;
+    border-bottom: 1px solid#E6EAEA;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-main .menu.active {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-main .item, .nav-main a {
+    position: relative;
+    display: block;
+    padding: 24px 36px;
+    font-size: 17px;
+    font-weight: bold;
+    color: 
+#202121;
+cursor: pointer;
+background:
+#f4f7f6;
+border-bottom: 1px solid
+    #E6EAEA;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* open style
+.nav-sidebar-open .wrapper {
+    position: fixed;
+    transform: translateX(320px);
+}
+
+*/
