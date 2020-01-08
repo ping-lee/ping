@@ -1,22 +1,46 @@
 import React from 'react';
-import '../styles/awwwards.css'
+import { gsap, CSSPlugin, TweenLite } from 'gsap';
+import '../styles/awwwards.css';
+
+gsap.registerPlugin(CSSPlugin); 
 
 class Awwwards extends React.Component {
     constructor (props) {
         super(props);
         this.state = {
             isOpen: false,
+        };
+        this.element1 = null;
+        this.myTween = null;
+    }
+
+    componentDidMount () {
+        // use the node ref to create the animation
+        if (this.state.isOpen) {
+            this.myTween = TweenLite.to(this.element2, 1, {x: 320, position: 'fixed'});
+            console.log('t')
+        } else {
+            //this.myTween = TweenLite.to(this.element2, 1, {x: 320, position: 'fixed'});
+            console.log('f')
         }
     }
+    
     render () {
         let { isOpen } = this.state;
+        if (this.state.isOpen) {
+            this.myTween = TweenLite.to(this.element2, 0.5, {x: 320, position: 'fixed'});
+            console.log('t')
+        } else {
+            this.myTween = TweenLite.to(this.element2, 0.5, {x: 0, position: 'fixed'});
+            console.log('f')
+        }
         return (
-            <div className="nav-sidebar-open" style={
-                isOpen ? {
-                    transform: `translateX(320px)`,
-                } : null
-            }>
-                <div className="wrapper">
+            <div className="nav-sidebar-open">
+                <div className="wrapper" ref={div => this.element2 = div} onClick={() => {
+                    if (isOpen) {
+                        this.setState({isOpen: false})
+                    }
+                }}>
                     <nav id="nav-main" className="nav-main">
                         <div className="top">
                             <div className="header"></div>
@@ -38,8 +62,8 @@ class Awwwards extends React.Component {
                     </nav>
                     <header id="header">
                         <div className="header-main">
-                            <div className="box-left" onClick={() => this.setState({isOpen: !isOpen})}>
-                                <div className="item bt-menu">
+                            <div className="box-left">
+                                <div className="item bt-menu" onClick={() => this.setState({isOpen: !isOpen})}>
                                     <div className="ico-menu">
                                         <div className="bar"></div>
                                         <div className="bar"></div>
@@ -95,7 +119,6 @@ class Awwwards extends React.Component {
                             </div>
                         </div>
                     </section>
-                    {isOpen}
                 </div>
             </div>
         )
