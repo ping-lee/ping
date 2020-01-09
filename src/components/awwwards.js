@@ -1,8 +1,10 @@
 import React from 'react';
-import { gsap, CSSPlugin, TweenLite } from 'gsap';
+//import { gsap, CSSPlugin, TweenLite, Linear } from 'gsap';
+//import CSSRulePlugin from 'gsap/CSSRulePlugin';
+import { Link } from 'gatsby';
 import '../styles/awwwards.css';
 
-gsap.registerPlugin(CSSPlugin); 
+//gsap.registerPlugin(CSSPlugin, CSSRulePlugin); 
 
 class Awwwards extends React.Component {
     constructor (props) {
@@ -10,42 +12,31 @@ class Awwwards extends React.Component {
         this.state = {
             isOpen: false,
         };
-        this.element1 = null;
-        this.myTween = null;
-    }
-
-    componentDidMount () {
-        // use the node ref to create the animation
-        if (this.state.isOpen) {
-            this.myTween = TweenLite.to(this.element2, 1, {x: 320, position: 'fixed'});
-            console.log('t')
-        } else {
-            //this.myTween = TweenLite.to(this.element2, 1, {x: 320, position: 'fixed'});
-            console.log('f')
-        }
     }
     
     render () {
         let { isOpen } = this.state;
-        if (this.state.isOpen) {
-            this.myTween = TweenLite.to(this.element2, 0.5, {x: 320, position: 'fixed'});
-            console.log('t')
-        } else {
-            this.myTween = TweenLite.to(this.element2, 0.5, {x: 0, position: 'fixed'});
-            console.log('f')
-        }
         return (
             <div className="nav-sidebar-open">
-                <div className="wrapper" ref={div => this.element2 = div} onClick={() => {
-                    if (isOpen) {
-                        this.setState({isOpen: false})
+                <div className="wrapper" style={
+                    isOpen ? {
+                        transform: `translateX(320px)`,
+                        position: `fixed`,
+                        transition: `all 0.5s ease-in-out`,
+                        content: '',
+                        width: `100%`,
+                        height: `100%`,
+                        backgroundColor: `rgba(0,0,0,0.75)`,
+                        zIndex: 51,
+                    } : {
+                        transition: `all 0.5s ease-in-out`
                     }
-                }}>
+                }>
                     <nav id="nav-main" className="nav-main">
                         <div className="top">
                             <div className="header"></div>
                             <ul id="menu-main" className="menu active">
-                                <li><span className="item open-login">Register / Log in</span></li>
+                                <li><span className="item open-login"><Link to="/hh">Register / Log in</Link></span></li>
                                 <li><span className="item open-login">Home</span></li>
                                 <li><span className="item open-login">Winners</span></li>
                                 <li><span className="item open-login">Nominees</span></li>
@@ -115,6 +106,11 @@ class Awwwards extends React.Component {
                                         <h1>Mobile Guidelines</h1>
                                         <p>Mobile Friendliness, Performance, Best Practices / PWA and Usability guidelines documentation.</p>
                                     </div>
+                                </div>
+                            </div>
+                            <div className="block">
+                                <div className="inner width-2">
+                                {this.props.children}
                                 </div>
                             </div>
                         </div>
