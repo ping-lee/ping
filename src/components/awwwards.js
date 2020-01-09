@@ -1,6 +1,7 @@
 import React from 'react';
 //import { gsap, CSSPlugin, TweenLite, Linear } from 'gsap';
 //import CSSRulePlugin from 'gsap/CSSRulePlugin';
+import glamorous from 'glamorous';
 import { Link } from 'gatsby';
 import '../styles/awwwards.css';
 
@@ -17,21 +18,27 @@ class Awwwards extends React.Component {
     render () {
         let { isOpen } = this.state;
         return (
-            <div className="nav-sidebar-open">
-                <div className="wrapper" style={
+            <div className="nav-sidebar-open" onClick={() => {if (isOpen) this.setState({isOpen: false})}}>
+                <glamorous.Div className="wrapper" css={
                     isOpen ? {
                         transform: `translateX(320px)`,
-                        position: `fixed`,
+                        position: `fixed!important`,
                         transition: `all 0.5s ease-in-out`,
-                        content: '',
-                        width: `100%`,
-                        height: `100%`,
-                        backgroundColor: `rgba(0,0,0,0.75)`,
-                        zIndex: 51,
+                        ':before' : {
+                            content: ' ',
+                            display: 'block',
+                            position: 'absolute',
+                            width: `100%`,
+                            height: `100%`,
+                            backgroundColor: `rgba(0,0,0,0.75)!important`,
+                            zIndex: `400!important`
+                        },
+                        
                     } : {
                         transition: `all 0.5s ease-in-out`
                     }
-                }>
+                } 
+                >
                     <nav id="nav-main" className="nav-main">
                         <div className="top">
                             <div className="header"></div>
@@ -115,7 +122,7 @@ class Awwwards extends React.Component {
                             </div>
                         </div>
                     </section>
-                </div>
+                </glamorous.Div>
             </div>
         )
     }
