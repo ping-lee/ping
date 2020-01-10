@@ -19,36 +19,37 @@ class Awwwards extends React.Component {
     render () {
         let { isOpen } = this.state;
         return (
-            <div className="nav-sidebar-open">
+            <div className="nav-sidebar-open" >
                 <glamorous.Div className="wrapper" css={
                     isOpen ? {
                         transform: `translateX(320px)`,
                         position: `fixed!important`,
                         transition: `all 0.5s ease-in-out`,
-                        ':before' : {
-                            content: ' ',
+                        '::before' : {
+                            content: ` `,
                             display: 'block',
                             position: 'absolute',
                             width: `100%`,
                             height: `100%`,
-                            backgroundColor: `rgba(0,0,0,0.75)!important`,
-                            zIndex: `400!important`
+                            backgroundColor: `rgba(0,0,0,0.75)`,
+                            zIndex: `400!important`,
+                            transition: `all 0.5s ease-in-out`,
                         },
                         
                     } : {
-                        transition: `all 0.5s ease-in-out`
+                        transition: `all 0.5s ease-in-out`,
+                        
                     }
                 }
-                onClick={() => {if (isOpen) this.setState({isOpen: false})}}
                 >
-                    <nav id="nav-main" className="nav-main">
+                    <nav id="nav-main" className="nav-main" >
                         <div className="top">
                             <div className="header">
                                 <div className="pull-left">
                                     
                                 <DarkModeToggle ph="15px" />
                                 </div>
-                                <div className="pull-right">
+                                <div className="pull-right" onClick={() => {if (isOpen) this.setState({isOpen: false})}}>
                                     <glamorous.Div className="bt-close text-uppercase" css={{
                                         ':before': {
                                             content: ' ',
@@ -59,7 +60,7 @@ class Awwwards extends React.Component {
                                             height: '3px',
                                             background: '#202121',
                                             transform: 'rotate(45deg)',
-                                            transition: 'all 0.3s ease-in-out'
+                                            
                                         },
                                         ':after': {
                                             content: ' ',
@@ -70,7 +71,7 @@ class Awwwards extends React.Component {
                                             height: '3px',
                                             background: '#202121',
                                             transform: 'rotate(-45deg)',
-                                            transition: 'all 0.3s ease-in-out'
+                                            
                                         }
                                     }}>
                                         <font color='#202121'>关闭</font>
