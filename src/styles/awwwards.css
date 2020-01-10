@@ -461,3 +461,45 @@ li {
     border-bottom: 1px solid#E6EAEA;
     transition: background 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
+.pull-right {
+    float: right;
+}
+
+.nav-main .bt-close {
+    cursor: pointer;
+    padding-right: 30px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.pull-left {
+    float: left;
+}
+
+.link-1 {
+    display: inline-block;
+    color: #202121 !important;
+    border-bottom: 1px solid
+    rgba(32,33,33,0.5);
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-main .bt-lang {
+    position: relative;
+}
+
+.nav-main .bt-lang .ico-svg {
+    position: absolute;
+    top: -1px;
+    right: -25px;
+    width: 18px;
+    height: auto;
+}
