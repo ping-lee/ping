@@ -7,8 +7,6 @@
     z-index: 2;
 }
 
-
-
 .wrapper, #header, .box-search:not(.show) {
     background: transparent;
 }
@@ -17,12 +15,8 @@
     background-color: #fff;
 }
 
-#header, #header .bt-menu, #header .login a, #header .logged .name {
-    color: #fff;
-}
-
 .ico-svg, .logo-fill {
-    fill: #fff;
+    fill: #202121;
 }
 
 #header {
@@ -34,7 +28,7 @@
     line-height: 73px;
     font-size: 12px;
     font-weight: 400;
-    /*background-color: #f4f7f6;*/
+    background-color: #f4f7f6;
     /*background: transparent;*/
     z-index: 302;
     display: block;
@@ -45,11 +39,10 @@
     display: flex;
     height: 70px;
     border-bottom: 1px solid #E6EAEA;
-    border-bottom-color: rgb(230, 234, 234);
 }
 
 #header .header-main, #header .bt-menu {
-    border-color: rgba(255,255,255,0.2);
+    border-color: #E6EAEA;
 }
 
 #header .item {
@@ -90,7 +83,7 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    /*background-color: #202121;*/
+    background-color: #202121;
     border-radius: 2px;
     overflow: hidden;
 }
@@ -123,6 +116,10 @@
     }
 }
 
+.text-black {
+    color: #202121;
+}
+
 #bt-submit {
     position: relative;
     width: 190px;
@@ -130,11 +127,6 @@
     padding: 0 !important;
     overflow: hidden;
     transition: width 0.3s ease-in-out;
-}
-
-#bt-submit .button {
-    background-color: 
-    #f3891f;
 }
 
 #bt-submit .button {
@@ -280,7 +272,7 @@
 
 @media(max-width: 700px) {
     .block {
-        padding-top: 23px;
+        padding-top: 50px;
         padding-bottom: 23px;
     }
 }
@@ -427,7 +419,7 @@ block-header .box-title p:last-child {
     font-size: 13px;
     font-weight: normal;
     background-color: #f4f7f6;
-    border-bottom: 1px solid#E6EAEA;
+    border-bottom: 1px solidrgb(76, 202, 202);
     overflow: hidden;
     z-index: 1;
     transition: all 0.3s ease-in-out;
