@@ -26,6 +26,7 @@ class Awwwards extends React.Component {
                         position: `fixed!important`,
                         transition: `all 0.5s ease-in-out`,
                     } : {
+                        transition: `all 0.5s ease-in-out`,
                         
                     }
                 }
@@ -33,7 +34,6 @@ class Awwwards extends React.Component {
                     <div style={
                         isOpen ?
                         {
-                            display: 'block',
                             position: 'absolute',
                             width: `100%`,
                             top: 0,
@@ -45,7 +45,7 @@ class Awwwards extends React.Component {
                         }
                         :
                         {
-                            transition: `all 0.5s ease-in-out`,
+                            transition: `all 1s ease-in-out`,
                         }
                     }
                     onClick={() => {if (isOpen) this.setState({isOpen: false})}}
@@ -87,18 +87,33 @@ class Awwwards extends React.Component {
                                 </div>
                             </div>
                             <ul id="menu-main" className="menu">
-                                <li><span className="item open-login"><Link to="/"><font color='#202121'>Register / Log in</font></Link></span></li>
-                                <li><span className="item open-login">Home</span></li>
-                                <li><span className="item open-login">Winners</span></li>
-                                <li><span className="item open-login">Nominees</span></li>
-                                <li><span className="item open-login">Collections</span></li>
-                                <li><span className="item open-login">Professional directory</span></li>
-                                <li><span className="item open-login">Jobs & Talent</span></li>
-                                <li><span className="item open-login">Blog</span></li>
-                                <li><span className="item open-login">eBooks & Publications</span></li>
-                                <li><span className="item open-login">About Us</span></li>
-                                <li><span className="item open-login">Conferences</span></li>
-                                <li><span className="item open-login">About Us</span></li>
+                                <li><span className="item"><Link to="/"><font color='#202121'>注册 / 登录</font></Link></span></li>
+                                <li><span className="item">Home</span></li>
+                                <li><span className="item">关于</span></li>
+                                <li><span className="item">摄影</span></li>
+                                <li><span className="item">仓库</span></li>
+                                <li><span className="item">工作 & 技能</span></li>
+                                <li><glamorous.A className="item" css={{
+                                    ':after': {
+                                        content: `attr(data-count)`,
+                                        display: `block`,
+                                        position: `absolute`,
+                                        top: `50%`,
+                                        right:`25px`,
+                                        width: `24px`,
+                                        height: `24px`,
+                                        lineHeight: `24px`,
+                                        fontSize: `11px`,
+                                        fontWeight: 500,
+                                        textAlign: `center`,
+                                        backgroundColor: `#9ceade`,
+                                        borderRadius: `50%`,
+                                        /*-webkit-transform: `translateY(-50%)`,*/
+                                        transform: `translateY(-50%)`,
+                                    }
+                                }}
+                                data-count= "4"
+                                >Blog</glamorous.A></li>
                             </ul>
                         </div>
                     </nav>
@@ -128,7 +143,7 @@ class Awwwards extends React.Component {
                                     </div>
                                     <div id="bt-submit" className="item has-tablet">
                                         <a className="button button-large" href="/submit/">
-                                            <span>提交您的网站</span>
+                                            <span>说出您的建议</span>
                                         </a>
                                     </div>
                                 </div>

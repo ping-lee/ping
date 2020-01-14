@@ -19,6 +19,10 @@
     fill: #202121;
 }
 
+.nav-sidebar-open {
+    overflow: hidden;
+}
+
 #header {
     position: fixed;
     top: 0;
@@ -419,18 +423,19 @@ block-header .box-title p:last-child {
     font-size: 13px;
     font-weight: normal;
     background-color: #f4f7f6;
-    border-bottom: 1px solidrgb(76, 202, 202);
+    border-bottom: 1px solid #E6EAEA;
     overflow: hidden;
     z-index: 1;
     transition: all 0.3s ease-in-out;
 }
 
-.nav-main .menu.active {
+.nav-main .menu {
     display: block;
 }
 
 li {
     list-style: none;
+    margin-bottom: 0;
 }
 
 .nav-main .item {
