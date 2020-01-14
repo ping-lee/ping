@@ -40,12 +40,12 @@ class Awwwards extends React.Component {
                             left: 0,
                             height: `100%`,
                             backgroundColor: `rgba(0,0,0,0.75)`,
-                            zIndex: `400`,
+                            zIndex: `999`,
                             transition: `all 0.5s ease-in-out`,
                         }
                         :
                         {
-                            transition: `all 1s ease-in-out`,
+                            transition: `all 0.5s ease-in-out`,
                         }
                     }
                     onClick={() => {if (isOpen) this.setState({isOpen: false})}}
@@ -91,7 +91,26 @@ class Awwwards extends React.Component {
                                 <li><span className="item">Home</span></li>
                                 <li><span className="item">关于</span></li>
                                 <li><span className="item">摄影</span></li>
-                                <li><span className="item">仓库</span></li>
+                                <li><glamorous.A className="item" css={{
+                                    ':after': {
+                                        content: `attr(data-count)`,
+                                        display: `block`,
+                                        position: `absolute`,
+                                        top: `50%`,
+                                        right:`25px`,
+                                        width: `24px`,
+                                        height: `24px`,
+                                        lineHeight: `24px`,
+                                        fontSize: `11px`,
+                                        fontWeight: 500,
+                                        textAlign: `center`,
+                                        backgroundColor: `#FEF7C1`,
+                                        borderRadius: `50%`,
+                                        transform: `translateY(-50%)`,
+                                    }
+                                }}
+                                data-count= "6"
+                                >仓库</glamorous.A></li>
                                 <li><span className="item">工作 & 技能</span></li>
                                 <li><glamorous.A className="item" css={{
                                     ':after': {
@@ -108,11 +127,10 @@ class Awwwards extends React.Component {
                                         textAlign: `center`,
                                         backgroundColor: `#9ceade`,
                                         borderRadius: `50%`,
-                                        /*-webkit-transform: `translateY(-50%)`,*/
                                         transform: `translateY(-50%)`,
                                     }
                                 }}
-                                data-count= "4"
+                                data-count= "8"
                                 >Blog</glamorous.A></li>
                             </ul>
                         </div>
