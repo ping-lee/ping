@@ -1,27 +1,22 @@
 import React from 'react';
 
-import Toggle from './toggle';
+//import Toggle from './toggle';
 import useDarkMode from 'use-dark-mode';
 
 import Moon from "../../content/assets/_ionicons_svg_ios-moon.svg";
 import Sunny from "../../content/assets/_ionicons_svg_ios-sunny.svg";
 
-const svgstyle = {
-  position: 'absolute',
-  top: '-1px',
-  right: '-25px',
-  width: '18px',
-  hegiht: 'auto'
-}
-
-const DarkModeToggle = ({ ph }) => {
+const DarkModeToggle = ({ ph, handleDark }) => {
   const darkMode = useDarkMode(false);
 
   return (
     <div className="dark-mode-toggle" style={{margin: 0}}>
       
       {darkMode.value ? 
-      <div onClick={darkMode.disable}>
+      <div onClick={() => {
+        darkMode.disable();
+        handleDark();
+      }}>
         <span style={{
           display: 'inline-block',
           borderBottom: '1px solid rgba(32,33,33,0.5)',
@@ -44,7 +39,10 @@ const DarkModeToggle = ({ ph }) => {
         </span>
       </div>
       : 
-      <div onClick={darkMode.enable}>
+      <div onClick={() => {
+        darkMode.enable();
+        handleDark();
+      }}>
         <span style={{
           display: 'inline-block',
           borderBottom: '1px solid rgba(32,33,33,0.5)',

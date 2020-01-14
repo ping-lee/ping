@@ -13,11 +13,12 @@ class Awwwards extends React.Component {
         super(props);
         this.state = {
             isOpen: false,
+            isDark: false,
         };
     }
     
     render () {
-        let { isOpen } = this.state;
+        let { isOpen, isDark } = this.state;
         return (
             <div className="nav-sidebar-open" >
                 <glamorous.Div className="wrapper" css={
@@ -55,7 +56,7 @@ class Awwwards extends React.Component {
                             <div className="header">
                                 <div className="pull-left">
                                     
-                                <DarkModeToggle ph="15px" />
+                                <DarkModeToggle ph="15px" handleDark={() => this.setState({isDark: !isDark})} />
                                 </div>
                                 <div className="pull-right" onClick={() => {if (isOpen) this.setState({isOpen: false})}}>
                                     <glamorous.Div className="bt-close text-uppercase" css={{
@@ -132,11 +133,25 @@ class Awwwards extends React.Component {
                                 }}
                                 data-count= "8"
                                 >Blog</glamorous.A></li>
+
+                                <li><span className="item">关于</span></li>
+                                <li><span className="item">摄影</span></li>
+                                <li><span className="item">关于</span></li>
+                                <li><span className="item">摄影</span></li>
                             </ul>
                         </div>
                     </nav>
                     <div>
-                        <header id="header">
+                        <header id="header" style={
+                            isDark ?
+                            {
+                                backgroundColor: `#000`,
+                            }
+                            :
+                            {
+                                backgroundColor: `#f4f7f6`,
+                            }
+                        }>
                             <div className="header-main">
                                 <div className="box-left">
                                     <div className="item bt-menu" onClick={() => this.setState({isOpen: !isOpen})}>
@@ -145,7 +160,7 @@ class Awwwards extends React.Component {
                                             <div className="bar"></div>
                                             <div className="bar"></div>
                                         </div>
-                                        <span className="has-tablet">菜单</span>
+                                        <span className="has-tablet"><font color='#202121'>菜单</font></span>
                                     </div>
                                 </div>
                                 <div className="box-right">
