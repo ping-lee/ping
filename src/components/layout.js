@@ -13,7 +13,7 @@ class Awwwards extends React.Component {
         super(props);
         this.state = {
             isOpen: false,
-            isDark: value,
+            isDark: value ? value : true,
         };
     }
     
