@@ -13,7 +13,7 @@ class Awwwards extends React.Component {
         super(props);
         this.state = {
             isOpen: false,
-            isDark: value ? value : true,
+            isDark: value ? true : value,
         };
     }
     
@@ -143,7 +143,7 @@ class Awwwards extends React.Component {
                     </nav>
                     <div>
                         <header id="header" style={
-                            !isDark ?
+                            isDark ?
                             {
                                 backgroundColor: `#000`,
                             }
