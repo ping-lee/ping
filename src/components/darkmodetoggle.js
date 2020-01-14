@@ -6,8 +6,12 @@ import useDarkMode from 'use-dark-mode';
 import Moon from "../../content/assets/_ionicons_svg_ios-moon.svg";
 import Sunny from "../../content/assets/_ionicons_svg_ios-sunny.svg";
 
-const DarkModeToggle = ({ ph, handleDark }) => {
-  const darkMode = useDarkMode(false);
+export var value = null;
+
+export const DarkModeToggle = ({ ph, handleDark }) => {
+  const darkMode = useDarkMode(true);
+
+  value = darkMode.value;
 
   return (
     <div className="dark-mode-toggle" style={{margin: 0}}>
@@ -15,7 +19,7 @@ const DarkModeToggle = ({ ph, handleDark }) => {
       {darkMode.value ? 
       <div onClick={() => {
         darkMode.disable();
-        handleDark();
+        handleDark(false);
       }}>
         <span style={{
           display: 'inline-block',
@@ -41,7 +45,7 @@ const DarkModeToggle = ({ ph, handleDark }) => {
       : 
       <div onClick={() => {
         darkMode.enable();
-        handleDark();
+        handleDark(true);
       }}>
         <span style={{
           display: 'inline-block',
@@ -70,5 +74,3 @@ const DarkModeToggle = ({ ph, handleDark }) => {
     </div>
   );
 };
-
-export default DarkModeToggle;
