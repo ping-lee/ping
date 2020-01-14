@@ -143,7 +143,7 @@ class Awwwards extends React.Component {
                     </nav>
                     <div>
                         <header id="header" style={
-                            isDark ?
+                            !isDark ?
                             {
                                 backgroundColor: `#000`,
                             }
