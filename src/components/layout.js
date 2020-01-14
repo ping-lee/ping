@@ -3,7 +3,7 @@ import React from 'react';
 //import CSSRulePlugin from 'gsap/CSSRulePlugin';
 import glamorous from 'glamorous';
 import { Link } from 'gatsby';
-import { DarkModeToggle, value} from './darkmodetoggle'
+import { DarkModeToggle, value } from './darkmodetoggle'
 import '../styles/awwwards.css';
 
 //gsap.registerPlugin(CSSPlugin, CSSRulePlugin); 
