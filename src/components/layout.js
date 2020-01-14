@@ -13,12 +13,13 @@ class Awwwards extends React.Component {
         super(props);
         this.state = {
             isOpen: false,
-            isDark: false,
+            isDark: value ? value : false,
         };
     }
 
     componentDidMount () {
-        console.log(this.state.isDark)
+        console.log(`value`, value)
+        
     }
     
     render () {
