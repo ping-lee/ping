@@ -180,6 +180,12 @@ a {
     text-transform: uppercase;
 }
 
+#header .login a {
+    box-shadow: none;
+    color:#000;
+    text-decoration: none;
+}
+
 #header .login, #header .logged {
     flex: 1;
     text-align: right;
@@ -200,6 +206,11 @@ a {
     line-height: normal;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+.logo-header a {
+    box-shadow: none;
+    color:#000;
+    text-decoration: none;
 }
 
 @media(max-width: 700px) {
@@ -432,6 +443,12 @@ block-header .box-title p:last-child {
     display: block;
 }
 
+.nav-main .menu a {
+    box-shadow: none;
+    color:#000;
+    text-decoration: none;
+}
+
 li {
     list-style: none;
     margin-bottom: 0;
@@ -523,11 +540,6 @@ li {
 #footer .inner {
     display: flex;
     justify-content: space-between;
-}
-
-.inner:not(.full-width) {
-    padding-left: 35px;
-    padding-right: 35px;
 }
 
 footer .box-left {

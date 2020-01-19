@@ -292,6 +292,12 @@ ul, ol {
     position: relative;
 }
 
+.list-items .box-byuser .item a {
+    box-shadow: none;
+    color:#000;
+    text-decoration: none;
+}
+
 .list-items .box-byuser img {
     vertical-align: middle;
     border-radius: 500%;

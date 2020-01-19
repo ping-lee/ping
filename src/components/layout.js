@@ -218,11 +218,11 @@ class Awwwards extends React.Component {
                         <div className="inner">
                             <div className="box-left">
                                 <ul className="menu-footer">
-                                    <li><a>Contact Us</a></li>
+                                    <li><a>联系我</a></li>
                                     <li><a>F.Q.A</a></li>
-                                    <li><a>Cookies Policy</a></li>
-                                    <li><a>Legal Terms</a></li>
-                                    <li><a>Privacy Policy</a></li>
+                                    <li><a>Cookies说明</a></li>
+                                    <li><a>法律条款</a></li>
+                                    <li><a>隐私说明</a></li>
                                 </ul>
                             </div>
                             <div className="box-right">

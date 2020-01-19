@@ -1,0 +1,27 @@
+.article-wrapper {
+    margin-top: -100px;
+}
+
+@media (max-width: 700px) {
+    .article-wrapper {
+        margin-top: 0px;
+    }
+
+    .article-wrapper .article {
+        max-width: 100%!important;
+    }
+
+    .navp {
+        max-width: 100%!important;
+    }
+}
+
+.article-wrapper .article {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.navp {
+    max-width: 80%;
+    margin: 0 auto;
+}

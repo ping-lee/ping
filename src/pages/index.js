@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Image from "gatsby-image"
 
 //import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -13,6 +14,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+    const { author } = data.site.siteMetadata
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -22,29 +24,6 @@ class BlogIndex extends React.Component {
             {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-                /*
-                <article key={node.fields.slug}>
-                  <header>
-                    <h3
-                      style={{
-                        marginBottom: rhythm(1 / 4),
-                      }}
-                    >
-                      <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                        {title}
-                      </Link>
-                    </h3>
-                    <small>{node.frontmatter.date}</small>
-                  </header>
-                  <section>
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: node.frontmatter.description || node.excerpt,
-                      }}
-                    />
-                  </section>
-                </article>
-                */
                 <li className="col-3" key={node.fields.slug}>
                   <div className="box-item">
                     <figure className="rollover">
@@ -81,10 +60,19 @@ class BlogIndex extends React.Component {
                           <div className="box-byuser">
                             <div className="item">
                               <a>
-                              <img src="https://assets.awwwards.com/awards/media/cache/thumb_user_70/avatar/436689/5b3a29a4034c6.jpg" 
-                                   data-src="https://assets.awwwards.com/awards/media/cache/thumb_user_70/avatar/436689/5b3a29a4034c6.jpg" 
-                                   alt="Buzzworthy-Studio" 
-                                   className="lazy lazy-loaded" width="27" height="27" />
+                              <Image
+                                fixed={data.avatar.childImageSharp.fixed}
+                                alt={author}
+                                style={{
+                                  width: `26px`,
+                                  height: `26px`,
+                                  verticalAlign: `middle`,
+                                  borderRadius: `500%`,
+                                }}
+                                imgStyle={{
+                                  borderRadius: `50%`,
+                                }}
+                              />
                               </a>
                             </div>
                             <div className="by">
@@ -124,9 +112,17 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        fixed(width: 50, height: 50) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     site {
       siteMetadata {
         title
+        author
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -137,7 +133,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MM 月 DD, YYYY")
+            date(formatString: "MM月DD日, YYYY")
             title
             description
           }
