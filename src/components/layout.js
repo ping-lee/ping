@@ -4,7 +4,7 @@ import React from 'react';
 import glamorous from 'glamorous';
 import { Link } from 'gatsby';
 import { DarkModeToggle, value } from './darkmodetoggle'
-import '../styles/awwwards.css';
+import '../styles/layout.css';
 
 //gsap.registerPlugin(CSSPlugin, CSSRulePlugin); 
 
@@ -15,11 +15,6 @@ class Awwwards extends React.Component {
             isOpen: false,
             isDark: value ? value : false,
         };
-    }
-
-    componentDidMount () {
-        console.log(`value`, value)
-        
     }
     
     render () {
@@ -51,11 +46,18 @@ class Awwwards extends React.Component {
                         }
                         :
                         {
+                            position: 'absolute',
+                            width: `100%`,
+                            top: 0,
+                            left: 0,
+                            height: `100%`,
+                            zIndex: `-1`,
                             transition: `all 0.5s ease-in-out`,
                         }
                     }
                     onClick={() => {if (isOpen) this.setState({isOpen: false})}}
-                    ></div>
+                    >
+                    </div>
                     <nav id="nav-main" className="nav-main" >
                         <div className="top">
                             <div className="header">
@@ -93,8 +95,7 @@ class Awwwards extends React.Component {
                                 </div>
                             </div>
                             <ul id="menu-main" className="menu">
-                                <li><span className="item"><Link to="/"><font color='#202121'>注册 / 登录</font></Link></span></li>
-                                <li><span className="item">Home</span></li>
+                                <li><span className="item"><Link to="/"><font color='#202121'>Home</font></Link></span></li>
                                 <li><span className="item">关于</span></li>
                                 <li><span className="item">摄影</span></li>
                                 <li><glamorous.A className="item" css={{
@@ -186,7 +187,7 @@ class Awwwards extends React.Component {
                                     </div>
                                 </div>
                                 <div className="logo-header">
-                                    <a href="/" aria-label="Awwwards">
+                                    <Link to="/" aria-label="Awwwards">
                                         <svg width="141" height="22.3" viewBox="0 0 280 44.3">
                                             <path className="logo-fill" id="logo-a1" d="M1.2,20.8c1-5.1,5.5-8.7,11.9-8.7c7.4,0,13.1,3.1,13.1,13.1v18.6h-6.3l-0.8-4c-2.2,2.7-5.1,4.5-9.6,4.5 C4.2,44.3,0,41,0,34.8s5.5-10.2,13.3-10.2h5.2v-1.4c0-3.5-2.6-4.6-5.5-4.6c-2.2,0-4.4,0.7-5.4,3.6L1.2,20.8z M11.3,37.8 c3.5,0,7.2-2.4,7.2-6.4v-0.6h-5.1c-3.3-0.1-5.3,1.2-5.3,3.9C8.1,36.2,9.2,37.8,11.3,37.8z"></path>
                                             <path className="logo-fill" id="logo-a2" d="M151,20.8c1-5.1,5.5-8.7,11.9-8.7c7.4,0,13.1,3.1,13.1,13.1v18.6h-6.3l-0.8-4c-2.2,2.7-5.1,4.5-9.6,4.5 c-5.3,0-9.5-3.3-9.5-9.5s5.5-10.2,13.3-10.2h5.2v-1.4c0-3.5-2.6-4.6-5.5-4.6c-2.2,0-4.4,0.7-5.4,3.6L151,20.8z M161.1,37.8 c3.5,0,7.2-2.4,7.2-6.4v-0.6h-5.1c-3.3,0-5.3,1.2-5.3,4C157.9,36.2,159,37.8,161.1,37.8z"></path>
@@ -198,7 +199,7 @@ class Awwwards extends React.Component {
                                             <path className="logo-fill" id="logo-w1" d="M73.7,12.6l-10,31.2h-6.8l-5.4-20.2l-5.4,20.3h-6.8l-10-31.2h7.8l5.6,21.4L48,12.7h7.1l5.3,21.4L66,12.7 L73.7,12.6L73.7,12.6z"></path>
                                             <path className="logo-fill" id="logo-p" d="M274.8,33.8c3,0,5.2,2.2,5.2,5.2s-2.2,5.2-5.2,5.2s-5.2-2.2-5.2-5.2S271.9,33.8,274.8,33.8z"></path>
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </header>
@@ -212,6 +213,24 @@ class Awwwards extends React.Component {
                             </div>
                         </section>
                     </div>
+                    <footer id="footer">
+                    <div className="box-bottom">
+                        <div className="inner">
+                            <div className="box-left">
+                                <ul className="menu-footer">
+                                    <li><a>Contact Us</a></li>
+                                    <li><a>F.Q.A</a></li>
+                                    <li><a>Cookies Policy</a></li>
+                                    <li><a>Legal Terms</a></li>
+                                    <li><a>Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <div className="box-right">
+                                <p><a href="http://beian.miit.gov.cn">滇ICP备18008459号</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
                 </glamorous.Div>
             </div>
         )
