@@ -206,7 +206,7 @@ class Awwwards extends React.Component {
                         <section id="content">
                             <div className="content-view">
                                 <div className="block">
-                                    <div className="inner width-2">
+                                    <div className="inner">
                                     {this.props.children}
                                     </div>
                                 </div>
