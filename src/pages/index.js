@@ -5,7 +5,6 @@ import Image from "gatsby-image"
 //import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 import '../styles/index.css'
 
@@ -23,20 +22,17 @@ class BlogIndex extends React.Component {
           <ul className="list-items list-flex">
             {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
+            const profile = node.frontmatter.profile
             return (
                 <li className="col-3" key={node.fields.slug}>
                   <div className="box-item">
                     <figure className="rollover">
                       <Link to={node.fields.slug}>
                         <div className="box-photo">
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaEAAAEqAQMAAACGEX2aAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACZJREFUaN7twTEBAAAAwiD7pzbFPmAAAAAAAAAAAAAAAAAAAAAQOz7cAAG8Je16AAAAAElFTkSuQmCC" 
-                            data-srcset="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2019/09/5d7fc428dfb1a005466764.png 1x, https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d7fc428dfb1a005466764.png 2x" 
-                            alt="Helias Oils" 
-                            className="lazy lazy-loaded" 
-                            srcSet="https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2019/09/5d7fc428dfb1a005466764.png 1x, https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d7fc428dfb1a005466764.png 2x" 
-                            width="417" 
-                            height="298"
+                          <Image
+                            fluid={profile.childImageSharp.fluid} 
+                            alt="Oops!!!" 
+                            className="lazy lazy-loaded"
                           />
                         </div>
                         <div className="hover-item top">
@@ -136,6 +132,13 @@ export const pageQuery = graphql`
             date(formatString: "MM月DD日, YYYY")
             title
             description
+            profile {
+              childImageSharp {
+                fluid(maxWidth: 417, maxHeight: 298) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

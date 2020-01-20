@@ -2,6 +2,7 @@
 title: 宝玉范的两个病
 date: "2020-01-05T13:39:00.284Z"
 description: "...."
+profile: "./2.png"
 ---
 
 
