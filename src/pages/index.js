@@ -47,7 +47,7 @@ class BlogIndex extends React.Component {
                           <h3><Link to={node.fields.slug}>{title}</Link></h3>
                         </div>
                         <div className="row row-2col">
-                          <div className="box-left"> From KunMing Chain</div>
+                          <div className="box-left"> Location：KunMing Chain</div>
                           <div className="box-right">{node.frontmatter.date}</div>
                         </div>
                       </div>
@@ -121,7 +121,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, filter: {frontmatter: {date: {ne: null}}}) {
       edges {
         node {
           excerpt
