@@ -1,5 +1,8 @@
 ---
-title: 5个核心SQL语句
+title: SQL-5个核心SQL语句
+date: "2020-01-27T19:11:32.169Z"
+description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+profile: "./emile-perron-xrVDYZRGdw4-unsplash.jpg"
 ---
 
 ## select
@@ -92,3 +95,4 @@ set (salary, commission_pct) = (select employees2.salary, .10 comm_pct
 where department_id = 90 ;
 -- 比较Example 2、Example 4、Example 5。
 ```
+
