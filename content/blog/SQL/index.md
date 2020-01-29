@@ -5,5 +5,5 @@ description: This is a custom description for SEO and Open Graph purposes, rathe
 profile: "./emile-perron-xrVDYZRGdw4-unsplash.jpg"
 ---
 
-[5个核心SQL语句](http://www.tristanme.com/SQL/5个核心SQL语句/). 
+[5个核心SQL语句](/SQL/5个核心SQL语句/). 
 
