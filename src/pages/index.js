@@ -74,7 +74,7 @@ class BlogIndex extends React.Component {
                             <div className="by">
                               by
                             </div>
-                            <strong><a href="/" className="text-block">Lee Ping</a></strong>
+                            <strong><a href="/" className="text-block">Tristan</a></strong>
                           </div>
                         </div>
                         <div className="box-right">

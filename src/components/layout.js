@@ -188,7 +188,7 @@ class Awwwards extends React.Component {
                                 </div>
                                 <div className="logo-header">
                                     <Link to="/" aria-label="Awwwards">
-                                        <h2 style={{marginTop: 0}}>TristanMe.</h2>
+                                        <h3 style={{marginTop: 0, marginBottom: 0}}>TristanBlog.</h3>
                                     </Link>
                                 </div>
                             </div>
