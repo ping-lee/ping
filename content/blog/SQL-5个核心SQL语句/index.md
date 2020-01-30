@@ -95,4 +95,76 @@ set (salary, commission_pct) = (select employees2.salary, .10 comm_pct
 where department_id = 90 ;
 -- 比较Example 2、Example 4、Example 5。
 ```
+### delete
+delete语句用来从表中移除数据行。
+```sql
+-- Example 1: Delete rows from specified table using a filter condition in the WHERE clause
+delete from employees2
+where department_id = 90 ;
 
+rollback ;
+
+-- Example 2: Delete rows suing a subquery in the FROM clause
+delete from (select * from employees2 where department_id = 90) ;
+
+rollback ;
+
+-- Example 3: Delete rows from specified table using a subquery in the WHERE clause
+delete from employees2
+where department_id in (select department_id
+                          from departments
+                          where department_name = 'Executive') ;
+
+rollback ;
+```
+
+### merge
+merge语句可以按条件获取要更新或插入到表中的数据行，然后从1个或多个源头对表进行更新或者向表中插入行。
+```sql
+-- 假设由两个表employees和dept60_bonuses，两表的数据如下
+select employee_id, last_name, salary 
+from employees 
+where department_id = 60 ;
+
+EMPLOYEE_ID     LAST_NAME     SALARY
+------------------------------------
+103             Hunold        9000
+104             Ernst         6000
+105             Austin        4800
+106             Pataballa     4800
+107             Lorentz       4200
+
+select * from dept60_bonuses ;
+
+EMPLOYEE_ID     BONUS_AMT
+-------------------------
+103             0
+104             100
+105             0
+
+
+merge into dept60_bonuses b
+using (
+        select employee_id, salary, department_id
+        from employees
+        where department_id = 60
+      ) e
+on (b.employee_id = e.employee_id)
+when matched then
+  update set b.bonus_amt = e.salary * 0.2
+  where b.bonus_amt = 0
+  delete where (e.salary > 7500)
+when not matched then
+  insert (b.employee_id, b.bonus_amt)
+  values (e.employee_id, e.salary * 0.1)
+  where (e.salary < 7500)
+
+select * from dept60_bonuses ;
+
+EMPLOYEE_ID     BONUS_AMT
+-------------------------
+104             100
+105             960
+106             480
+107             420
+```

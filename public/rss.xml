@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lee Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Jan 2020 11:17:27 GMT</lastBuildDate><item><title><![CDATA[SQL-5个核心SQL语句]]></title><description><![CDATA[select select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样： select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、或者甚至是一个select语句的结果。 insert…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</guid><pubDate>Mon, 27 Jan 2020 19:11:32 GMT</pubDate><content:encoded>&lt;h2&gt;select&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lee Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Jan 2020 09:42:33 GMT</lastBuildDate><item><title><![CDATA[SQL-5个核心SQL语句]]></title><description><![CDATA[select select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样： select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、或者甚至是一个select语句的结果。 insert…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</guid><pubDate>Mon, 27 Jan 2020 19:11:32 GMT</pubDate><content:encoded>&lt;h2&gt;select&lt;/h2&gt;
 &lt;p&gt;select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;customer_id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
        &lt;span class=&quot;token function&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;o&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;order_id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; orders_ct
@@ -76,7 +76,75 @@
                                   &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; employees2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;employee_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; employees&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;emloyee_id
                                     &lt;span class=&quot;token operator&quot;&gt;and&lt;/span&gt; employees&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;salary &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; employees2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;salary&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; department_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;-- 比较Example 2、Example 4、Example 5。&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[宝玉范的两个病]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/红楼梦-贾宝玉范的两个病/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/红楼梦-贾宝玉范的两个病/</guid><pubDate>Sun, 05 Jan 2020 13:39:00 GMT</pubDate><content:encoded>&lt;p&gt;《红楼梦》第八十二回《老学究讲义警玩心，…》的前半段讲的是宝玉上学的事。宝玉在外面人看来，是如今野马上了笼头，比不得头里，而实际上是：&lt;strong&gt;我依旧回来了，我哪里是乏，只是闷的慌，我心里烦操的很&lt;/strong&gt;。可见宝玉当时还是玩心不改，后来懂得这个道理的时候才知道这是自误了，曲解了古人的意思，悔之晚矣。  &lt;/p&gt;
+&lt;span class=&quot;token comment&quot;&gt;-- 比较Example 2、Example 4、Example 5。&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;delete&lt;/h3&gt;
+&lt;p&gt;delete语句用来从表中移除数据行。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- Example 1: Delete rows from specified table using a filter condition in the WHERE clause&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; employees2
+&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; department_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;rollback&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;-- Example 2: Delete rows suing a subquery in the FROM clause&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; employees2 &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; department_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;rollback&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;-- Example 3: Delete rows from specified table using a subquery in the WHERE clause&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; employees2
+&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; department_id &lt;span class=&quot;token operator&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; department_id
+                          &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; departments
+                          &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; department_name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Executive&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;rollback&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;merge&lt;/h3&gt;
+&lt;p&gt;merge语句可以按条件获取要更新或插入到表中的数据行，然后从1个或多个源头对表进行更新或者向表中插入行。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- 假设由两个表employees和dept60_bonuses，两表的数据如下&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; employee_id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; last_name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; salary 
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; employees 
+&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; department_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;60&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+EMPLOYEE_ID     LAST_NAME     SALARY
+&lt;span class=&quot;token comment&quot;&gt;------------------------------------&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;103&lt;/span&gt;             Hunold        &lt;span class=&quot;token number&quot;&gt;9000&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;104&lt;/span&gt;             Ernst         &lt;span class=&quot;token number&quot;&gt;6000&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;105&lt;/span&gt;             Austin        &lt;span class=&quot;token number&quot;&gt;4800&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;106&lt;/span&gt;             Pataballa     &lt;span class=&quot;token number&quot;&gt;4800&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;107&lt;/span&gt;             Lorentz       &lt;span class=&quot;token number&quot;&gt;4200&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; dept60_bonuses &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+EMPLOYEE_ID     BONUS_AMT
+&lt;span class=&quot;token comment&quot;&gt;-------------------------&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;103&lt;/span&gt;             &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;104&lt;/span&gt;             &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;105&lt;/span&gt;             &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+
+
+&lt;span class=&quot;token keyword&quot;&gt;merge&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;into&lt;/span&gt; dept60_bonuses b
+&lt;span class=&quot;token keyword&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; employee_id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; salary&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; department_id
+        &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; employees
+        &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; department_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;60&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; e
+&lt;span class=&quot;token keyword&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;employee_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;employee_id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;matched&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;bonus_amt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;salary &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.2&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;bonus_amt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;salary &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7500&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;matched&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;employee_id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;bonus_amt&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;values&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;employee_id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;salary &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;salary &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7500&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; dept60_bonuses &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+EMPLOYEE_ID     BONUS_AMT
+&lt;span class=&quot;token comment&quot;&gt;-------------------------&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;104&lt;/span&gt;             &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;105&lt;/span&gt;             &lt;span class=&quot;token number&quot;&gt;960&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;106&lt;/span&gt;             &lt;span class=&quot;token number&quot;&gt;480&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;107&lt;/span&gt;             &lt;span class=&quot;token number&quot;&gt;420&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[宝玉范的两个病]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/红楼梦-贾宝玉范的两个病/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/红楼梦-贾宝玉范的两个病/</guid><pubDate>Sun, 05 Jan 2020 13:39:00 GMT</pubDate><content:encoded>&lt;p&gt;《红楼梦》第八十二回《老学究讲义警玩心，…》的前半段讲的是宝玉上学的事。宝玉在外面人看来，是如今野马上了笼头，比不得头里，而实际上是：&lt;strong&gt;我依旧回来了，我哪里是乏，只是闷的慌，我心里烦操的很&lt;/strong&gt;。可见宝玉当时还是玩心不改，后来懂得这个道理的时候才知道这是自误了，曲解了古人的意思，悔之晚矣。  &lt;/p&gt;
 &lt;p&gt;代儒是私塾里的老师，他让宝玉讲串两个文章，下面是宝玉讲的话，代儒指出了理解的不足之处。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;后生可畏，焉知来者之不如今也？四十、五十而无闻焉，斯亦不足畏也已。——《论语-子罕》&lt;/p&gt;
