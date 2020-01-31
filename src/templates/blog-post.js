@@ -40,8 +40,10 @@ class BlogPostTemplate extends React.Component {
                   marginBottom: rhythm(1),
                 }}
               >
-                {post.frontmatter.date}
+                {post.frontmatter.date}<br/>
+                {post.frontmatter.los}
               </p>
+              
             </header>
             <section dangerouslySetInnerHTML={{ __html: post.html }} />
             <hr
@@ -101,6 +103,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        los
         date(formatString: "YYYY年MM月DD日")
         description
       }

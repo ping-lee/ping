@@ -1,9 +1,13 @@
 ---
-title: SQL-5个核心SQL语句
+title: 5个核心SQL语句
 date: "2020-01-27T19:11:32.169Z"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
-profile: "./emile-perron-xrVDYZRGdw4-unsplash.jpg"
+profile: "./Screenshot_2020-01-31 SQL Language Oracle-sql.png"
+los: 石林•昆明•云南•中国
+lo: 石林
 ---
+
+![SQL Language Oracle](./Screenshot_2020-01-31 SQL Language Oracle.png)
 
 ## select
 select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样：

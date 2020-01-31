@@ -47,7 +47,7 @@ class BlogIndex extends React.Component {
                           <h3><Link to={node.fields.slug}>{title}</Link></h3>
                         </div>
                         <div className="row row-2col">
-                          <div className="box-left"> Location：KunMing Chain</div>
+                          <div className="box-left">来自：{node.frontmatter.lo}</div>
                           <div className="box-right">{node.frontmatter.date}</div>
                         </div>
                       </div>
@@ -72,7 +72,7 @@ class BlogIndex extends React.Component {
                               </a>
                             </div>
                             <div className="by">
-                              by
+                              通过
                             </div>
                             <strong><a href="/" className="text-block">Tristan</a></strong>
                           </div>
@@ -131,6 +131,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MM月DD日, YYYY")
             title
+            lo
             description
             profile {
               childImageSharp {

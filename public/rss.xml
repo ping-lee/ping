@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lee Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Jan 2020 10:18:15 GMT</lastBuildDate><item><title><![CDATA[SQL-SQL执行过程]]></title><link>https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</guid><pubDate>Thu, 30 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[2020年的第一天下雪了]]></title><link>https://gatsby-starter-blog-demo.netlify.com/20年的第一天下雪了/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/20年的第一天下雪了/</guid><pubDate>Thu, 30 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[SQL-5个核心SQL语句]]></title><description><![CDATA[select select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样： select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、或者甚至是一个select语句的结果。 insert…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</guid><pubDate>Mon, 27 Jan 2020 19:11:32 GMT</pubDate><content:encoded>&lt;h2&gt;select&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lee Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Jan 2020 15:20:25 GMT</lastBuildDate><item><title><![CDATA[SQL执行过程]]></title><link>https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</guid><pubDate>Thu, 30 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[5个核心SQL语句]]></title><description><![CDATA[select select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样： select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、或者甚至是一个select语句的结果。 insert…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</guid><pubDate>Mon, 27 Jan 2020 19:11:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0652f08aba8e884528243d4783aef295/30a34/Screenshot_2020-01-31%20SQL%20Language%20Oracle.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 20.758693361433085%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA7UlEQVQY02WPzUoCURiG504i6ga6AX8CRXIGCoXQhaCTBkIrdy3chKaizuiYjTo5JvkT1qrIjWvvpat4OmeU0Fq8vC/P+30f5yjh2gP50Tuau+CkYaMaPc7bAyL1LmfNx19pZt/rJI82bTSRpUeNzY7Mp1ULRTUdFss1n3qe23iSmOWQsJ+57LroTxNy7kz4lIyX56Sdicf14ZTscEZW9NLTzguhWgclaPQp3DXg8IDvo2Ou7RH1rxU341d8ZRP/fWtPga3+cn+5RbDSRvGJq+FihYF6QSmWJNUbU3z74Eq8IiAG5Df29I91djqLH61SxPEFE3R0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;SQL Language Oracle&quot;
+        title=&quot;SQL Language Oracle&quot;
+        src=&quot;/static/0652f08aba8e884528243d4783aef295/799d3/Screenshot_2020-01-31%20SQL%20Language%20Oracle.png&quot;
+        srcset=&quot;/static/0652f08aba8e884528243d4783aef295/00d96/Screenshot_2020-01-31%20SQL%20Language%20Oracle.png 148w,
+/static/0652f08aba8e884528243d4783aef295/0b23c/Screenshot_2020-01-31%20SQL%20Language%20Oracle.png 295w,
+/static/0652f08aba8e884528243d4783aef295/799d3/Screenshot_2020-01-31%20SQL%20Language%20Oracle.png 590w,
+/static/0652f08aba8e884528243d4783aef295/2a3d6/Screenshot_2020-01-31%20SQL%20Language%20Oracle.png 885w,
+/static/0652f08aba8e884528243d4783aef295/ae92f/Screenshot_2020-01-31%20SQL%20Language%20Oracle.png 1180w,
+/static/0652f08aba8e884528243d4783aef295/30a34/Screenshot_2020-01-31%20SQL%20Language%20Oracle.png 1898w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;select&lt;/h2&gt;
 &lt;p&gt;select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;customer_id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
        &lt;span class=&quot;token function&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;o&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;order_id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; orders_ct
@@ -163,9 +195,41 @@ EMPLOYEE_ID     BONUS_AMT
 &lt;/font&gt;&lt;/p&gt;
 &lt;font color=&quot;#545454&quot;&gt;
 &lt;p&gt;这也讲的罢了。我有句话问你：你既懂得圣人的话，为什么正犯着这两件病？我虽不在家中，你们老爷也不曾告诉我，其实你的毛病我却尽知的。&lt;u&gt;做一个人，怎么不望长进？你这会儿正是&lt;strong&gt;后生可畏&lt;/strong&gt;的时候，&lt;strong&gt;有闻、不足畏&lt;/strong&gt;全在你自己做去了。&lt;/u&gt;我如今限你一个月，把念过的旧书全要理清，再念一个月文章。以后我要出题目叫你作文章了。如若懈怠，我是断乎不依的。&lt;u&gt;自古道：&lt;strong&gt;成人不自在，自在不成人&lt;/strong&gt;。&lt;/u&gt;你好生记着我的话。
-&lt;/font&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apex可以用来做什么]]></title><description><![CDATA[Oracle Application Express is a low-code development platform that enable you to build tunning, scalable, secure apps with world-class…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/Apex可以用来做什么/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/Apex可以用来做什么/</guid><pubDate>Mon, 30 Dec 2019 11:43:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;/font&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2020年的第一天下雪了]]></title><link>https://gatsby-starter-blog-demo.netlify.com/20年的第一天下雪了/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/20年的第一天下雪了/</guid><pubDate>Wed, 01 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Apex可以用来做什么]]></title><description><![CDATA[Oracle Application Express is a low-code development platform that enable you to build tunning, scalable, secure apps with world-class…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/Apex可以用来做什么/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/Apex可以用来做什么/</guid><pubDate>Mon, 30 Dec 2019 11:43:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Oracle Application Express is a low-code development platform that enable you to build tunning, scalable, secure apps with world-class features that can be deployed anywhere.&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[2019总结]]></title><description><![CDATA[2019年5月份从就职以来的第一家公司离职，紧接着来到财大，很不幸，本应在信息中心的我调到教务处。1…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/2019年度总结/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/2019年度总结/</guid><pubDate>Fri, 27 Dec 2019 08:19:03 GMT</pubDate><content:encoded>&lt;p&gt;2019年5月份从就职以来的第一家公司离职，紧接着来到财大，很不幸，本应在信息中心的我调到教务处。18年的时候我写过一篇个人在工作上的总结，简单写了第一份工作体会和学到的编程技能。这周，中心要求我们写本年度的总结，当时的我还在百忙之中，一边处理这各种情况的调课，一边还要写完总结，真是头晕。&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[2019年结束了]]></title><description><![CDATA[2019年5月份从就职以来的第一家公司离职，紧接着来到财大，很不幸，本应在信息中心的我调到教务处。1…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/2019年度总结/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/2019年度总结/</guid><pubDate>Fri, 27 Dec 2019 08:19:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ca8013e8a7402f63418ffb1225ede850/a6e75/jude-beck-bvTtUo04Nmg-unsplash.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.74422469669271%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAcVq1yyA3//EABcQAQADAAAAAAAAAAAAAAAAAAEgITH/2gAIAQEAAQUC0Kj/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAQADAQAAAAAAAAAAAAAAAAEAESEg/9oACAEBAAY/AqDZoPP/xAAaEAEAAgMBAAAAAAAAAAAAAAABABEQIVFB/9oACAEBAAE/IdFQHsO6JXcLoJb2Lbc//9oADAMBAAIAAwAAABAcD//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EKf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCH/8QAHRABAAMAAgMBAAAAAAAAAAAAAQARITFRQWFxkf/aAAgBAQABPxANshW41spMJh7d/YlVW5FqZXXmWHL9iIuVuf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;迎接2020年&quot;
+        title=&quot;迎接2020年&quot;
+        src=&quot;/static/ca8013e8a7402f63418ffb1225ede850/88218/jude-beck-bvTtUo04Nmg-unsplash.jpg&quot;
+        srcset=&quot;/static/ca8013e8a7402f63418ffb1225ede850/7237a/jude-beck-bvTtUo04Nmg-unsplash.jpg 148w,
+/static/ca8013e8a7402f63418ffb1225ede850/0cfdf/jude-beck-bvTtUo04Nmg-unsplash.jpg 295w,
+/static/ca8013e8a7402f63418ffb1225ede850/88218/jude-beck-bvTtUo04Nmg-unsplash.jpg 590w,
+/static/ca8013e8a7402f63418ffb1225ede850/77d57/jude-beck-bvTtUo04Nmg-unsplash.jpg 885w,
+/static/ca8013e8a7402f63418ffb1225ede850/5a917/jude-beck-bvTtUo04Nmg-unsplash.jpg 1180w,
+/static/ca8013e8a7402f63418ffb1225ede850/a6e75/jude-beck-bvTtUo04Nmg-unsplash.jpg 6017w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2019年5月份从就职以来的第一家公司离职，紧接着来到财大，很不幸，本应在信息中心的我调到教务处。18年的时候我写过一篇个人在工作上的总结，简单写了第一份工作体会和学到的编程技能。这周，中心要求我们写本年度的总结，当时的我还在百忙之中，一边处理这各种情况的调课，一边还要写完总结，真是头晕。&lt;/p&gt;
 &lt;p&gt;后来我先把事情放一边，想专心写完这份总结，但我发现头脑里就行一团浆糊，没有任何的思绪和想法。后来发现这是因为我平日的工作造成现在的一种状态。我想说明我现在做的工作和之前做的有什么不同，这种不同是如何影响到我的。&lt;/p&gt;
 &lt;p&gt;教务处，解决的是教学问题。它面向的对象有几个，一是学校内部的学生和老师，二是面向教育厅和教育局。服务或者说解答学生和教师是维持学校整个教学的正常运行，涉及到学生的有：正常我为了完成学业需要上哪几门课？时间地点是什么？有哪个老师上[1]？因为各种情况没有顺利完成课程接下来要怎么处理[2]？对每门课的学习情况需要有个量化[3]，我在哪里考试？什么时间[4]？毕业设计要怎么做[5]？怎么鉴定我最后已经拥有毕业的资格[6]？最后毕业领证、滚蛋。在这之前，针对不同专业的修读课程，教务处教研科会作一个针对年度开设专业的培养方案，配套的课程体系，它指定了这个专业修读的课程、学分、绩点[7]。涉及到教师的有：我在哪里上课？那几个班？什么时间地点[1]？考试测评那些内容[8]？我上了多少课时？做什么课题？发几篇文章[9]？&lt;/p&gt;
 &lt;p&gt;回过来再看看我实际的工作内容：先把课排完，把高楼的课调到底楼，把领导的课调到周三（大概周三看起来比较特别）。导入录成绩的课程，针对不同年级、课程设置不同的平时、期中、期末成绩占比让老师录成绩。导入结业返校的学生，得让他们考试。处理双学位学生名单、课程…。学分制教务系统需求开发跟进、测试，配合实施人员完成各项工作…。&lt;/p&gt;

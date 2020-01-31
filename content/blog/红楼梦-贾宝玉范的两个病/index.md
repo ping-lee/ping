@@ -2,7 +2,9 @@
 title: 宝玉范的两个病
 date: "2020-01-05T13:39:00.284Z"
 description: "...."
-profile: "./2.png"
+profile: "./bill-fairs-8IkmJP3BONc-unsplash.jpg"
+los: 石林•昆明•云南•中国
+lo: 石林
 ---
 
 
