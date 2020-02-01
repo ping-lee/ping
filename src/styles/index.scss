@@ -421,3 +421,131 @@ li {
     border-radius: 30px;
     z-index: 970;
 }
+
+
+.rollover .above-item.bottom, .rollover .hover-item.bottom {
+    bottom: 20px;
+}
+
+.rollover .bt-item .bt-link {
+    width: 35px;
+    height: 35px;
+    border: 1px solid 
+    rgba(255,255,255,0.5);
+    border-radius: 50%;
+}
+
+.rollover .bt-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 35px;
+    height: 32px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.rollover .hover-item.bottom a {
+    box-shadow: none;
+}
+
+.rollover .bt-item.bt-link .ico-svg {
+    height: 11px;
+}
+
+.rollover .bt-item .ico-svg {
+    fill: 
+    #fff;
+    height: 13px;
+}
+
+.ico-svg {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 14px;
+    fill: #202121;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.rollover .bt-item.bt-link {
+    width: 35px;
+    height: 35px;
+    border: 1px solid 
+    rgba(255,255,255,0.5);
+    border-radius: 50%;
+}
+
+.rollover:hover .hover-item {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rollover:hover .hover-cover {
+    visibility: visible;
+}
+
+.hover-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #202121;
+    opacity: 0.5;
+    visibility: hidden;
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+}
+
+.rollover .above-item.center, .rollover .hover-item.center {
+    display: block;
+    justify-content: center;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    color: 
+    #fff;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.bt-default.white-fill {
+    border-color: 
+#fcfcfc;
+color:
+#202121;
+background-color:
+    #fcfcfc;
+    font-weight: 500;
+}
+
+.bt-default.large {
+    height: 50px;
+    line-height: 50px;
+}
+
+.bt-default {
+    position: relative;
+    display: inline-block;
+    height: 34px;
+    padding: 0 23px;
+    border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-radius: 50px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #A6ABAB;
+    border-color: #DBE0DF;
+}
