@@ -192,9 +192,7 @@ ul, ol {
 .list-items .box-info {
     position: relative;
     clear: both;
-    background-color: 
-    #fcfcfc;
-    font-family: "apercu",sans-serif;
+    background-color:#fcfcfc;
     font-size: 14px;
     font-weight: 300;
     color: #202121;
@@ -483,8 +481,21 @@ li {
     opacity: 1;
 }
 
+.rollover img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    transition: all 0.3s ease-in-out!important;
+}
+
+.rollover:hover img {
+    transform:scale(1.07);
+}
+
 .rollover:hover .hover-cover {
-    visibility: visible;
+    opacity: 0.5;
 }
 
 .hover-cover {
@@ -494,10 +505,9 @@ li {
     top: 0;
     left: 0;
     background: #202121;
-    opacity: 0.5;
-    visibility: hidden;
-    z-index: 3;
-    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.3s ease-in-out!important;
 }
 
 .rollover .above-item.center, .rollover .hover-item.center {
@@ -548,4 +558,14 @@ background-color:
     transition: all 0.3s ease-in-out;
     color: #A6ABAB;
     border-color: #DBE0DF;
+}
+
+.bt-default .number {
+    margin: 0 4px 0 2px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.rollover .above-item.top .bt-item, .rollover .hover-item.top .bt-item {
+    margin-left: 10px;
 }

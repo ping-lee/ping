@@ -28,7 +28,7 @@ class BlogIndex extends React.Component {
                   <div className="box-item">
                     <glamorous.Figure className="rollover">
                       <div className="hover-cover"></div>
-                      <Link to={node.fields.slug}>
+                      <div to={node.fields.slug}>
                         <div className="box-photo">
                           <Image
                             fluid={profile.childImageSharp.fluid} 
@@ -37,10 +37,15 @@ class BlogIndex extends React.Component {
                           />
                         </div>
                         <div className="hover-item top">
-                          <span className="bt-item bt-default bt-likeit js-bt-like js-collect-like "></span>
+                          <span className="bt-item bt-default bt-likeit js-bt-like js-collect-like ">
+                            <svg className="ico-svg" viewBox="0 0 15 14">
+                              <path d="M7.504,14C-0.305,7.809-0.02,5.619,0.007,3.801C0.032,2.101,1.406,0,3.705,0s3.698,2.5,3.698,2.5 S8.902,0,11.201,0s3.798,2.101,3.798,3.801C14.999,5.601,15.198,7.801,7.504,14"></path>
+                            </svg>
+                            <span className="number">138</span>
+                          </span>
                           <strong className="bt-item bt-default js-collect">Collect</strong>
                         </div>
-                      </Link>
+                      </div>
                       <div className="hover-item bottom">
                         <Link className="bt-item bt-link">
                           <svg className="ico-svg" viewBox="0 0 22.24 14">
@@ -49,7 +54,7 @@ class BlogIndex extends React.Component {
                         </Link>
                       </div>
                       <div className="hover-item center">
-                        <a className="bt-default white-fill large vote-now">VOTE NOW</a>
+                        <Link to={node.fields.slug} className="bt-default white-fill large vote-now">VOTE NOW</Link>
                       </div>
                     </glamorous.Figure>
                     <div className="box-info">
