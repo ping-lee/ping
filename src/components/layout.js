@@ -14,11 +14,12 @@ class Awwwards extends React.Component {
         this.state = {
             isOpen: false,
             isDark: value ? value : false,
+            isSearch: false,
         };
     }
     
     render () {
-        let { isOpen, isDark } = this.state;
+        let { isOpen, isDark, isSearch } = this.state;
         return (
             <div className="nav-sidebar-open" >
                 <glamorous.Div className="wrapper" css={
@@ -170,9 +171,9 @@ class Awwwards extends React.Component {
                                     </div>
                                 </div>
                                 <div className="box-right">
-                                    <div id="js-search-container" className="item bt-search">
+                                    <div id="js-search-container" className="item bt-search" onClick={() => this.setState({isSearch: !isSearch})}>
                                         <svg className="ico-svg" viewBox="0 0 14 14">
-                                        <path d="M14,12.383l-2.73-2.73c0.678-0.99,1.078-2.188,1.078-3.479C12.348,2.77,9.578,0,6.174,0 C2.77,0,0,2.77,0,6.173c0,3.405,2.77,6.174,6.174,6.174c1.29,0,2.486-0.398,3.478-1.078l2.73,2.73L14,12.383z M1.759,6.173 c0-2.434,1.98-4.415,4.415-4.415c2.433,0,4.414,1.98,4.414,4.415s-1.98,4.415-4.414,4.415C3.739,10.588,1.759,8.607,1.759,6.173"></path>
+                                          <path d="M14,12.383l-2.73-2.73c0.678-0.99,1.078-2.188,1.078-3.479C12.348,2.77,9.578,0,6.174,0 C2.77,0,0,2.77,0,6.173c0,3.405,2.77,6.174,6.174,6.174c1.29,0,2.486-0.398,3.478-1.078l2.73,2.73L14,12.383z M1.759,6.173 c0-2.434,1.98-4.415,4.415-4.415c2.433,0,4.414,1.98,4.414,4.415s-1.98,4.415-4.414,4.415C3.739,10.588,1.759,8.607,1.759,6.173"></path>
                                         </svg>
                                     </div>
                                     <div className="item login">
@@ -190,6 +191,53 @@ class Awwwards extends React.Component {
                                     <Link to="/" aria-label="Awwwards">
                                         <h3 style={{marginTop: 0, marginBottom: 0}}>TristanBlog.</h3>
                                     </Link>
+                                </div>
+                                <div id="box-search" className="box-search show" style={
+                                    isSearch ?
+                                    {
+                                        visibility: `visible`,
+                                        opacity: 1,
+                                    }
+                                    :
+                                    null
+                                }>
+                                    <div className="box-left">
+                                        <div className="box-input">
+                                        <input type="text" id="search-text" placeholder="输入搜索内容" autocomplete="off" class="search-input js-search-input" value=""/>
+                                        </div>
+                                    </div>
+                                    <div className="box-right">
+                                        <glamorous.Div className="bt-close" onClick={() => this.setState({isSearch: !isSearch})} css={{
+                                            ':before': {
+                                            content: ' ',
+                                            position: 'absolute',
+                                            top: '33px',
+                                            right: '22px',
+                                            width: '20px',
+                                            height: '3px',
+                                            ['@media only screen and (max-width: 500px)']: {
+                                                background: '#202121',
+                                            },
+                                            background: '#f4f7f6',
+                                            transform: 'rotate(45deg)',
+                                            
+                                        },
+                                        ':after': {
+                                            content: ' ',
+                                            position: 'absolute',
+                                            top: '33px',
+                                            right: '22px',
+                                            width: '20px',
+                                            height: '3px',
+                                            ['@media only screen and (max-width: 500px)']: {
+                                                background: '#202121',
+                                            },
+                                            background: '#f4f7f6',
+                                            transform: 'rotate(-45deg)',
+                                            
+                                        }
+                                        }}></glamorous.Div>
+                                    </div>
                                 </div>
                             </div>
                         </header>

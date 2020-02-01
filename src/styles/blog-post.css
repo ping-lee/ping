@@ -21,6 +21,10 @@
     margin: 0 auto;
 }
 
+.article li {
+    list-style: inside;
+}
+
 .navp {
     max-width: 80%;
     margin: 0 auto;

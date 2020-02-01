@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lee Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Feb 2020 05:45:02 GMT</lastBuildDate><item><title><![CDATA[SQL执行过程]]></title><link>https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</guid><pubDate>Thu, 30 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[5个核心SQL语句]]></title><description><![CDATA[select select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样： select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、或者甚至是一个select语句的结果。 insert…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</guid><pubDate>Mon, 27 Jan 2020 19:11:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lee Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Feb 2020 13:09:00 GMT</lastBuildDate><item><title><![CDATA[SQL执行过程]]></title><link>https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</guid><pubDate>Thu, 30 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[5个核心SQL语句]]></title><description><![CDATA[select select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样： select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、或者甚至是一个select语句的结果。 insert…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</guid><pubDate>Mon, 27 Jan 2020 19:11:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -197,7 +197,7 @@ EMPLOYEE_ID     BONUS_AMT
 &lt;p&gt;这也讲的罢了。我有句话问你：你既懂得圣人的话，为什么正犯着这两件病？我虽不在家中，你们老爷也不曾告诉我，其实你的毛病我却尽知的。&lt;u&gt;做一个人，怎么不望长进？你这会儿正是&lt;strong&gt;后生可畏&lt;/strong&gt;的时候，&lt;strong&gt;有闻、不足畏&lt;/strong&gt;全在你自己做去了。&lt;/u&gt;我如今限你一个月，把念过的旧书全要理清，再念一个月文章。以后我要出题目叫你作文章了。如若懈怠，我是断乎不依的。&lt;u&gt;自古道：&lt;strong&gt;成人不自在，自在不成人&lt;/strong&gt;。&lt;/u&gt;你好生记着我的话。
 &lt;/font&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2020年的第一天下雪了]]></title><link>https://gatsby-starter-blog-demo.netlify.com/20年的第一天下雪了/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/20年的第一天下雪了/</guid><pubDate>Wed, 01 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Apex可以用来做什么]]></title><description><![CDATA[Oracle Application Express is a low-code development platform that enable you to build tunning, scalable, secure apps with world-class…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/Apex可以用来做什么/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/Apex可以用来做什么/</guid><pubDate>Mon, 30 Dec 2019 11:43:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Oracle Application Express is a low-code development platform that enable you to build tunning, scalable, secure apps with world-class features that can be deployed anywhere.&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[2019年结束了]]></title><description><![CDATA[2019年5月份从就职以来的第一家公司离职，紧接着来到财大，很不幸，本应在信息中心的我调到教务处。1…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/2019年度总结/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/2019年度总结/</guid><pubDate>Fri, 27 Dec 2019 08:19:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[2019年的终章]]></title><description><![CDATA[2019年5月份从就职以来的第一家公司离职，紧接着来到财大，很不幸，本应在信息中心的我调到教务处。1…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/2019年的终章/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/2019年的终章/</guid><pubDate>Fri, 27 Dec 2019 08:19:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -236,4 +236,335 @@ EMPLOYEE_ID     BONUS_AMT
 &lt;p&gt;我以前得工作是什么？写开发文档，说明书，编写应用，测试，交付。&lt;/p&gt;
 &lt;p&gt;二者的不同在于，后者的工作内容单纯，思路清晰，它和计算机打交道，解决得实际问题是技术难点，它需要查阅各类技术文档。这是纯粹单一的工作，它似乎理想，但也和现实脱钩。前者的工作，内容饱满，量且丰富，几乎没有技术难点和痛点，换句话说，他是一个普通人的工作，和现实生活更贴近，需要的是处理事情的效率还有管理方面的才能。但是，简单的重复性工作和厌烦的人工核实、保障把一个人搞疯了（谁知道哪天是个头）。虽然解决的都是人的问题，但面对的直接是人而并不是计算机，这让问题变得可以简单也可以复杂哦，如果你认为问题简单或者复杂，那你就错了，它既不简单也不复杂。&lt;/p&gt;
 &lt;p&gt;回过头来，教务处的工作让我变得怎么样了呢？首先最直观的是简单的重复性工作和维稳，保障性核实环节让我变得麻木不仁，思维停滞。过多管理，公关，人事让一个编程人员心中充满了不确定性和惶恐。喧嚣，热闹的工作环境几乎有时间也无心细定下心来想其他的事情，而时间就在指缝间偷偷溜走。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[前方的路]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/前方的路/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/前方的路/</guid><pubDate>Wed, 25 Dec 2019 09:07:03 GMT</pubDate><content:encoded>&lt;p&gt;三年前刚毕业，面临择业的问题，那时候最在乎的是我将会在什么样的地方工作，接触什么类型的人，自己会成为怎么样的人。这种想法的起源和出生成长的环境有关，出生在郊县的小村庄，给我影响深刻的是农村人因生活的压力而表现出各种矛盾的常态，直接导致现在的我对家庭婚姻有点后怕—后怕亲密关系产生的矛盾。这是我进入社会前对家庭生活最原始的想法。&lt;/p&gt;
-&lt;p&gt;现在，我26岁。&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;现在，我26岁。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2018的终章]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/2018年的终章/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/2018年的终章/</guid><pubDate>Sun, 28 Jan 2018 08:19:03 GMT</pubDate><content:encoded>&lt;p&gt;首先，是以目前的状态来写的，也是基于现在对一些东西的理解，而理解是相对的，所以有些想法会迭代或者交织，那都是正常的。编辑的思路很简单，就是我对编程的理解——当前声明、陈述、语句、段有其作用域，仅在作用域有效，为的是解决当前域所遇到的问题，以此构建一个复杂庞大的体系。就像这篇文章，它是记录我一个阶段的一篇文章，而不是其他什么东西。以后的博文都将按照这个思路书写。&lt;/p&gt;
+&lt;p&gt;本在第一版本的博客中，就有写2018年总结的计划了，但是当时的状态不是很好，总结的思路没有形成。现在林林总总有点想法，趁着在过年前，抓住2018的尾巴写点什么，以此记2018年得失的同时表对2019年的期待。上周受班长的婚礼邀请，婚礼现场看到很多多难未见的同学。同学毕业后的初次见面没有哑然以对、无可奈何，而是谈笑风声、久别重逢。婚礼期间同他们聊的同时，又给我打开了另一个窗户，这是此次我写总结的动机之一。&lt;/p&gt;
+&lt;p&gt;“2018年总结怎么写？”这已是几个月前就思考的问题，如果按照企业或者公司的方式，未免死板迂腐，总结最终是发布在发布在个人博客上而非向组织或者上级汇报，故不以这样的方式书写。我想用个人灵活轻松的方式加之与正规文书的严整性书写我2018年的总结。&lt;/p&gt;
+&lt;p&gt;时光是一条隧道，它可以连接过去和现在。忘不了大学的学习时光，更忘不了的是同学[1]送我上车回故乡的景象，很感激自己能够收获这样的友谊，知己~，希望不久的以后可以见到他们，彼此聊聊这些年来发生的变化，谈笑间，深深地感受这份友谊。&lt;/p&gt;
+&lt;h3&gt;感想&lt;/h3&gt;
+&lt;p&gt;大三直到现在，不能忽略《红楼梦》这本小说的影响，有那么几段时间，似乎忘不了“大观园”世界：里面的宝玉对大观楼外的世界是这样理解的——“”；对教育是这样理解的——“”。由此我对社会和大学的学习产生了影响，毕业求职是“走求名利无双地，打出樊笼第一关”。直到后来，因为喜欢，反复的阅读各种版本，听他人的评说和生活中的理解，以促成我现在的认知。但现在的我是不愿意读它，反而喜欢把它当成秘密珍藏起来，不愿让外人发现它或者提及它。这是我从《红楼梦》里读到青春和成长的故事。&lt;/p&gt;
+&lt;p&gt;时光如水，而我愈加感到迫切了。如很多同学一样，入职后有施展才干的强烈诉求，以此在职业生涯中能有一个好的职业开端。但“千里马常有，而伯乐不常有。”加之工作中有些问题上难有突破[2]，真是时光如水啊。而不得不有几分“年与时驰，意与日去”的担忧。最后，步入中年时如这篇文章（可能多虑了。。）中描述的状态一样：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中年人是艰难的。青年时代的理想主义已经消退，健康和活力也不可避免地有一点降低，但是承担的责任却在增长， 再加上一些对死亡的恐惧和一些对活着的恐惧，你就有了叫做中年危机的东西。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我想再引用&lt;a href=&quot;https://github.com/ruanyf&quot;&gt;ruanyf老师&lt;/a&gt;weekly第一期的金句，我想我编辑第一篇博文时的想法和他编辑第一期weekly时是相似的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人生就像玻璃窗上的苍蝇，前途一片光明，却找不到出路。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;同时用一句话说明我在做的事：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人一生最大的幸运，就是在年富力强时发现了自己的人生使命。（茨威格《人类群星闪耀时》）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;工作&lt;/h3&gt;
+&lt;p&gt;有时我在想人是不是一定要工作？最后答案是不一定要工作。因为它与年龄、环境有关，假如50岁了你还在工作，那可能是不正常的。这里的工作是雇佣制度——给别人打工。很难想象50岁的时候老板问你为什么你还在工作~。程序员这个职业和年龄是有关系的，这是市场的现状，它偏向于年轻人，到那时候你必须将职业方向转向计算机行业内的其他职业。&lt;/p&gt;
+&lt;h4&gt;数据库&lt;/h4&gt;
+&lt;p&gt;Oracle数据库是一开始接触的数据库，Oracle SQL是出入职场时学习应用的。数据库作为应用数据部分提供存取数据的接口，如果仅存取数据的话那再简单不过了，但回顾学习和应用的经历，数据库的目的不仅仅是存取数据，它应更好的用于对数据完整性要求较高的应用时，将业务代码写成数据库内的存储过程。这样，把与业务有关的所有过程和数据作为重点了，这些也是数据库应用的核心。此外，数据库还提供了数据的备份、容灾处理、和数据分析等功能。到目前所接触项目中，数据备份、容灾处理是没有接触到的，数据库管理将是我接下来的一个课程。&lt;/p&gt;
+&lt;p&gt;数据库是自描述的，关系型数据库无非实体和关系。在Oracle里，实体就是表，关系就是表之间的关系，所以，表也是自描述的，因此，你只需要关注细表，因为它才是真正描述的对象。对非关系型数据库理解是我接下来的一个课程。&lt;/p&gt;
+&lt;h4&gt;应用环境&lt;/h4&gt;
+&lt;p&gt;目前开发应用所接触到的环境大致如下所示，手机端开发是接下来的一个课程。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;环境&lt;/th&gt;
+&lt;th&gt;应用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;.NET Framework&lt;/td&gt;
+&lt;td&gt;Windows桌面应用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Qt&lt;/td&gt;
+&lt;td&gt;Windows桌面应用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Node.js&lt;/td&gt;
+&lt;td&gt;Web开发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;语言&lt;/h4&gt;
+&lt;p&gt;语言重要，但也不重要。重要因为他是最为基础的，不重要因为你仅靠语法是不行的，很多想法需要从零开始实现，完成一个大型的项目几乎不可能。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;类别&lt;/th&gt;
+&lt;th&gt;语言&lt;/th&gt;
+&lt;th&gt;应用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;脚本&lt;/td&gt;
+&lt;td&gt;JavaScript&lt;/td&gt;
+&lt;td&gt;全栈Web开发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;标记语言&lt;/td&gt;
+&lt;td&gt;HTML、CSS、SASS&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;数据库语言&lt;/td&gt;
+&lt;td&gt;SQL &amp;#x26; PL/SQL&lt;/td&gt;
+&lt;td&gt;数据库端开发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;通用语言&lt;/td&gt;
+&lt;td&gt;C#&lt;/td&gt;
+&lt;td&gt;Windows WPF 应用开发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;C/C++&lt;/td&gt;
+&lt;td&gt;Windows Qt Quick 应用、DLL开发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;Web开发&lt;/h4&gt;
+&lt;p&gt;现在前端开发越来越复杂，前端的数据流是这部分的难点。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;类别&lt;/th&gt;
+&lt;th&gt;工具&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;前端框架&lt;/td&gt;
+&lt;td&gt;React.js、Next.js、Gatsby.js&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;前端构建工具&lt;/td&gt;
+&lt;td&gt;Webpack&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;前端数据流&lt;/td&gt;
+&lt;td&gt;GraphQL、Redux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Web服务器&lt;/td&gt;
+&lt;td&gt;Express.js&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;上面的表格是这一年里学习并在项目中实践过的，虽然用过，并且从知识面看上去挺广，但正因为广，知识的深度不够，基本功不行，不行。我想这正也是职业所忌讳的吧，从项目的经验来看，项目本身是不关心技术的，同一个项目有多种不同的技术实现。站在一个求职者的角度，你应该学习更多新的东西，开发出更多优秀的作品。此外个人认为C\C++在编程中是重要的，应该学习并且应用。&lt;/p&gt;
+&lt;h4&gt;过程&lt;/h4&gt;
+&lt;p&gt;工作的一年半里开发过：Windows应用（企业数据库应用）、Web应用（企业数据库应用）、数据库（开发）。按接触技术的先后列出了下面的内容：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;SQL、PL/SQL、APEX、Oracle&lt;/li&gt;
+&lt;li&gt;C#、WPF&lt;/li&gt;
+&lt;li&gt;React.js、JavaScript、Express.js&lt;/li&gt;
+&lt;li&gt;Next.js、MongoDB、Gatsby.js&lt;/li&gt;
+&lt;li&gt;Review CSS、Three.js&lt;/li&gt;
+&lt;li&gt;C++、Qt&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上面的技术在项目中用到外，我还开发了两个本部的博客,第一个版本大概如下，第二个版本的博文既是选择看到的。与第一个版本博文相比，它更加简单，目的是可以带来流畅的用户体验、质量较高的博文内容。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;博文首页&lt;/li&gt;
+&lt;li&gt;分类&lt;/li&gt;
+&lt;li&gt;文章&lt;/li&gt;
+&lt;li&gt;留言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c51ded54f791a19e92723f9a974210ef/6716b/1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.39134524929446%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACy0lEQVQoz32R609ScRjHz//Tm9brXvSuaS3RVSStrNCFoQIaIJSAeMFbOFEJRANNS7NJteVlrgvecko6FBFveAFFzuHiAc7xHM6FfmovarY+27M9e/Z8n++z54G8P+fXnXNOx/d+a9fy9MTagtPndrnnfixOT3jmZ7dci0hgb2vJNeeYcE7ObK+u7qy43TNTjtERj2sBUubmGIT5bSUCU3nZG53aXCF9IeQbhHz1HY6Gl20QPX5bV2mRFllkIpu8xN5QZa+r0t67KeJkDOirodc6Tbu0aNik/9Ck662seK+rsiokr1RltXyuTS2zqZ5KOFcFGVee3eWYywqtKvmn5nqbQlz5kNurkkFj7fo2aYlVp7Foy3V8nr7gUTk3W3zrWn1xvvJ+lrG0oFsjlXKzci9fHKhWvKvV9DyXWOSiVrFAkX0dMogE9oaaFomwujCvlJtZ/4DXVlSoyuM1PCkovX2jVVrcKRdLczJzLl0wykQ9ytIetczeVNOjkpuUYmiwpW7cZh7rNDl6u/oatdYmzWi3+eNL47jNOtnfN2Q0dKiVQ831nTrtt4G+EbNhsLXxc0fb7NDAouMLlE6nYRjZ8wdAEqfIkbDPGca8sTRGsaByEv+CZVmCICGWYZDQYSh4wNAUhpHeHcJ/mMATaDQai+OpQMAfDAYRGI6EI6DzDKCkaTqRTEIbG+sb20GXZ2/Vs4ocxVwosgxjvlgKwShgABpBN30OiqKSQJyi0iH/1IZ3mKFZ9Bgf3lxxByM+OBFCcRxLxuNxgiDOrw0mnohBdhzzYvACSGgqtR/Ew1GcOU6QOIai8SMUxTAMWDF/AyonYhQjExiVxFNAfETgX6Nb83DSjdD7SebsYCzLMucAYjAUcm4i4Th+dlcilVraDcyvBXwHkVA4ekrsf2vvwokkQdHM6WNYJoJSsQTJ0iRJ/AaYsH9AUif3BkGS5C9Lp5LEVBmH1gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;博文首页&quot;
+        title=&quot;博文首页&quot;
+        src=&quot;/static/c51ded54f791a19e92723f9a974210ef/799d3/1.png&quot;
+        srcset=&quot;/static/c51ded54f791a19e92723f9a974210ef/00d96/1.png 148w,
+/static/c51ded54f791a19e92723f9a974210ef/0b23c/1.png 295w,
+/static/c51ded54f791a19e92723f9a974210ef/799d3/1.png 590w,
+/static/c51ded54f791a19e92723f9a974210ef/2a3d6/1.png 885w,
+/static/c51ded54f791a19e92723f9a974210ef/6716b/1.png 1063w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1a51d319efe03ae845f02af076cc5cdb/6248e/2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.8473282442748%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAADMElEQVQ4y5WS20+TZxzH379mN0uWeLNkd8uyRC9c3BwoGasKaIdFhFoOFkqRtmRluFrdWttRKh1KQWR2atQs2aLJMrIsA4EV5DQI9GDpibZv3562fPaWZkp25S6+eb7P8/n+fs8hj7D9fImtpUWmnz7hrneM1blZNhb/ILK1ycrCHGv+BZbnn7G9skxgbZloOEhofR3/zCyzv/7Gqn+J4OYGAZmvyTnBdKqWIU0zFpUSR3cnnr6LuPq0WDVN2NSNfN3UgK7mCL21R3F0tPCjx8VYbycj2gt4dG1MXurkof0qdww9mE4dRzDLBd7+bqYGjYzquxgb6OeR3cqXjXXckhsb6o5hUlTh1rfjaD+H6tC7aKoPo/vkI1xyU8tnCnzWQb77wsSYfBhhWNeOufEkT8dH8F35nK9Up3GpW7iuVmFtVcpqYEjXirOnFY9ew1X1aS6dOM7Hb7/JtZZ6PD1t3DTqmDB0YWtWIvgsZtz9egYvqNDW16A9cZTLZ+rQVn3I2Q8Oojz8Pp21VSjeO8DwxfPY2lQYz3zKobfeoL+hhu+vmJk09XCjW42rS4Nwx2xgoq8bu+Yc7t4ONMcOYlRUc6NDjUPTgrX5LKMGPQblSYaNer7RnGegoRbFOwdorT6C16DjWlM9U5cN3B3oRZh0WPhhdIT7Tju/37vN/SE7jz1Opn23eDJxk5+8Xn6Zus3cowfcG3biNOmZnhhl3GZl+vEDnj308fO4G5vFhvv6twjReIJQKMhKIMJiRCRfyCMVivh3ciSzOUrFPCs7Ihsxkb9LBcLp3F6uVCqRlXLMhEQimXKmyEwghxCPx0kkkoSTWRaCu2QyGXZTaeYDSWLJNPlshuVwij93UhRkH4il8Id2yWbSpNJpZrd32ZTZX7k0BSmDsBOJML8WYz0s8SIhEt8VyYoZGVbG8gb5rEhOVlr2kijusfK6KPOi9IqVJUSjUZ5vxuRdJIJxkWRK3AuWYaWoUrzfp//jXzERIZFIsBpMsxHJEnrZUIZiZXwd7c/Kb5hgaUt+oxdZAtHylStX+fdUryNxnxckSSKXy5PKFhBzBQrFIsX/oYL8I0Sp8HL+DyX5jHMSUfc3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;分类&quot;
+        title=&quot;分类&quot;
+        src=&quot;/static/1a51d319efe03ae845f02af076cc5cdb/799d3/2.png&quot;
+        srcset=&quot;/static/1a51d319efe03ae845f02af076cc5cdb/00d96/2.png 148w,
+/static/1a51d319efe03ae845f02af076cc5cdb/0b23c/2.png 295w,
+/static/1a51d319efe03ae845f02af076cc5cdb/799d3/2.png 590w,
+/static/1a51d319efe03ae845f02af076cc5cdb/2a3d6/2.png 885w,
+/static/1a51d319efe03ae845f02af076cc5cdb/6248e/2.png 1048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2bf44fda07a9a37429f24b422018d0dc/a6965/3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.2431506849315%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsTAAALEwEAmpwYAAACl0lEQVQoz2M4d2zdxeNLL59cfvrokkXzajau7TxxfMmZMysOH1mwe++CdRtnrlo7de3GacvXT1+7bda2PTOPHF2we9/8NetmLFs+jWHpBM9ZTerTWhQmNEk1l4nWFcl0NWl1NCnXVctm5Ek5+7I7uXOGx4sFxHEHJrAHRbDbOjIEhXHHJgl5BvMzNFealOTIVpQodjZoTO4w6WkxbWjQrahVL6lQK681r6ixzi1Si0yS9fTj8wnmT0kVDQwX9PXliwwQCAkUY6gvNcxLEixOl8xOEEyJEkhPlCjOU87MUohKEkvNVY/P0PYIEDK2YtPRZzYwY/HxYYsI4Qz34Q60Z/Wy4GCoKDJOihVJjJUMCRZyc+XwdOcODuRLTpIoL9WKiZMNjpH3jZB1cOV1cuK1tOVzcOTxcOYJdeWL9+UOduBhuHLl1PUbp27cPHPw4LabN89euXbyxOkDN24BBU/euHv+4qVjFy8ePXP20IULR2/funjt+tlrV8/evHL26tUTp84cYvj16+///////vnz7PETIOP795+Pnrx4/+Hrp09ff//+/+vXn6/ffvz5A1KDDH7/+fvlx2+Gb9++PX/+/Nbtu5duPrt85drLly+fv3j+5MnTt2/fQtgPHj58/fr1ly9f3r17/w8Gfv/69eXzZ4YvXz7/+v3n5/f3D2+s/Pb1I9DUmzdvPnn69O/fv0BF/3GA379/fwZqBuI/f/78//fny5ubf//8BkrcvXfvxMmTQNuAKoBcuBHIZkE1f/v29dWHL8/ff//2A+Sxf3//PXv+4v79h1++fP3x88ePnz9//f777ccvIInF5h/fvz14+fHakw8QY79///7+3Xugni9g8PXbt+8/f3/+CjT6FzDY4ABoJlAWACxe9ol9idlbAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;文章&quot;
+        title=&quot;文章&quot;
+        src=&quot;/static/2bf44fda07a9a37429f24b422018d0dc/799d3/3.png&quot;
+        srcset=&quot;/static/2bf44fda07a9a37429f24b422018d0dc/00d96/3.png 148w,
+/static/2bf44fda07a9a37429f24b422018d0dc/0b23c/3.png 295w,
+/static/2bf44fda07a9a37429f24b422018d0dc/799d3/3.png 590w,
+/static/2bf44fda07a9a37429f24b422018d0dc/2a3d6/3.png 885w,
+/static/2bf44fda07a9a37429f24b422018d0dc/a6965/3.png 1168w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8a3fa24997f0af46fb9ff3fd7f95b8e9/6dd08/4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.786184210526315%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsTAAALEwEAmpwYAAACkElEQVQoz3WSa0hTYRjHT+EXKcjwikIKEmk6XdhK8zbveR8omaF5i/zWh4i+VESfJDJhQUqU0SxDNE0KQksZXbRos5rTzOPOnO5ytvMez9zmds7O2Tmnd4rUh/rx8PC8PPyf//O+vEhPn6pXNTo8pX01qf6omR+Z0tzrH7rbp+p5MNDdq1I+HByfUA+OTQy8eDPyevKteubx87E7vU+MJjPr9yNIaEJ4uuKKcvjZ+PTt/peyji4kLntveDISIQmJkYbEZUgL67Mrm2BOyqnJU7SGxZ9AQhMn1TOiwCN7oiSH8luHJ2Yv3uxLb7xRflkZevS0JLf26q3utkvXiuo6cmtacqrPn6pqTsqulZU1wnEwpj98CYqRsKR9R0qzzl1XPhrquv80qqATic1EDkKblmPFZw5nVR8vbSiuv5BX2ypXtJU1dO6HzgeS372fFUUeiUwtjEyRR6RVJJZ0xsvbo6XlMWlF0ZKiBFllvKwiMbMqVV53sqIpq7I5o/RsvqI9VloSnVLw6bM26OxnWZpmMBTluAAgSRzHXW43RTkdBIAZgA3cTqxbrLiDsOEOiw2naRq1OTA7oFxuJBDg/Axjtdp4PkCS5DKKmkxrBoNh1bQKC3TFYLFazGbzqjF4hACCMAJqDWwExQQgDBg2v/QLRVdsNpt+YUE3r9dq537odDr94nedXjv37atGo9HO/VxaNmBG3O6AZj4vZAsJ8CLPUgQ2KooCSW4sLC5CBwBIj8fjcrk2Nze3CzcMhqED2wR128A7cyzHUaRdFEXK6VwzWziOE/+PIAh/xBbgxuzunYbX5yUIsOX1wlcJcJzA88KuAPIPsRl41sHWTgOuxPgZloU/z+9jGH5X8DdwoI9mdvgNYnf/ecpWxxwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;文章&quot;
+        title=&quot;文章&quot;
+        src=&quot;/static/8a3fa24997f0af46fb9ff3fd7f95b8e9/799d3/4.png&quot;
+        srcset=&quot;/static/8a3fa24997f0af46fb9ff3fd7f95b8e9/00d96/4.png 148w,
+/static/8a3fa24997f0af46fb9ff3fd7f95b8e9/0b23c/4.png 295w,
+/static/8a3fa24997f0af46fb9ff3fd7f95b8e9/799d3/4.png 590w,
+/static/8a3fa24997f0af46fb9ff3fd7f95b8e9/2a3d6/4.png 885w,
+/static/8a3fa24997f0af46fb9ff3fd7f95b8e9/ae92f/4.png 1180w,
+/static/8a3fa24997f0af46fb9ff3fd7f95b8e9/6dd08/4.png 1216w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5575aaff8ef271610c625b40b9b0517b/d81c9/5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.94318181818182%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsTAAALEwEAmpwYAAABfElEQVQoz5WSyW7cMAyG9f5v0kforcec0gUpsnSmRWZseZO8kRRlxZJLjYEgaZJDPxAGafunSIqKiEIIldZfr6+ncZymCRHda9g5QGqHubGTGWYk4st7FWP07A+/Dsy8bVtZlrbviRBeIzEhimUAxssxSgQhLLc3PyWF+Frrrm0lK37M0+IG2/V9r+qmKcpSV4I21jZV1zStnCTt5MroX+TLqYbKEJITcX1/+PPtTh8fC9NZbR50p9ue7DDPM8wgtToxcky5d56Ar27h+xGBOJe9Lubx/hNRI/6Phy/Hs+ixqNpTUdVdzyHxEp1fd2O/pphBWlTathRGKD6v3q5x89yPoznrWiZX15UxxpoMs3/GsZdQulI+rOEpThBS2lJKLwY877YjM3hjqM4d3BWDXxapOaaE/4M6dfC7AZGJOL0vhg/FzgfkIJd+mUKUVZGFg7xC0tfCl/YklNJ2xEHH2fFescs/7hcrSD55Sq91a0/ayMxbOwDiy6t+jv4C0BWpnxjvGdsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;留言&quot;
+        title=&quot;留言&quot;
+        src=&quot;/static/5575aaff8ef271610c625b40b9b0517b/799d3/5.png&quot;
+        srcset=&quot;/static/5575aaff8ef271610c625b40b9b0517b/00d96/5.png 148w,
+/static/5575aaff8ef271610c625b40b9b0517b/0b23c/5.png 295w,
+/static/5575aaff8ef271610c625b40b9b0517b/799d3/5.png 590w,
+/static/5575aaff8ef271610c625b40b9b0517b/2a3d6/5.png 885w,
+/static/5575aaff8ef271610c625b40b9b0517b/d81c9/5.png 1056w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;结语&lt;/h4&gt;
+&lt;p&gt;工作是实现一个人价值的方式，但不是唯一的。人生的每一个阶段有每个阶段的诉求，有这个阶段具有的悲喜和忧愁，在默默承受这些成长的同时，应该为下一个阶段做好充足的准备。未来是不可预知的，你应该采取什么样的态度，这是值得思考的问题。&lt;/p&gt;
+&lt;h3&gt;你好，2019&lt;/h3&gt;
+&lt;p&gt;上部分写了一些当时的感想和工作上的总结。2019，渴望拥有新的变化，不论是职业或者状态。在人际交往上，希望可以和更多的人交流，以此提高自己的口语 (@.@)，因为平时练习口语的机会真的是太少了。&lt;/p&gt;
+&lt;h3&gt;考试&lt;/h3&gt;
+&lt;p&gt;本想指学习的，但为了区别以前理解的“学习”，还是用考试吧，这也比较符合实际环境。总结以下比较符合我的考试大概有这些：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;0&lt;/th&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;教师资格证 、 软考&lt;/td&gt;
+&lt;td&gt;职业&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;IELTS&lt;/td&gt;
+&lt;td&gt;语言&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;专业知识&lt;/td&gt;
+&lt;td&gt;！！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;考研&lt;/td&gt;
+&lt;td&gt;升学&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;公务员&lt;/td&gt;
+&lt;td&gt;职业&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;毕业时的初心是升学，会朝着这个方向努力，但如开头提到，就是为了升学，而不是其他什么。其间会面临很多现实的选择，那是正常的。&lt;/p&gt;
+&lt;p&gt;以后会写有关备考的文章。&lt;/p&gt;
+&lt;p&gt;…待续。&lt;/p&gt;</content:encoded></item></channel></rss>

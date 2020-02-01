@@ -26,9 +26,9 @@
     width: 25%;
 }
 
-@media( max-width: 557px) {
+@media( max-width: 1461px) {
     .grid .paginate .col-3, .grid .list-items .col-3, body.home .box-heading .col-3 {
-        width: 100%!important;
+        width: 33.33333%;
     }
 }
 
@@ -38,9 +38,9 @@
     }
 }
 
-@media( max-width: 1461px) {
+@media( max-width: 557px) {
     .grid .paginate .col-3, .grid .list-items .col-3, body.home .box-heading .col-3 {
-        width: 33.33333%;
+        width: 100%!important;
     }
 }
 
