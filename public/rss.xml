@@ -1,10 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lee Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 04 Feb 2020 13:52:20 GMT</lastBuildDate><item><title><![CDATA[市场通常是组织经济活动的一种好方法]]></title><description><![CDATA[选自《经济学原理》 20世纪80年代苏联和东欧的解体是2…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/经济学原理-市场/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/经济学原理-市场/</guid><pubDate>Tue, 04 Feb 2020 21:09:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;font size=1 margin-bootom=0&gt;选自《经济学原理》&lt;/font&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lee Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 05 Feb 2020 06:15:58 GMT</lastBuildDate><item><title><![CDATA[经济学原理笔记]]></title><description><![CDATA[选自《经济学原理》仅作为理论参考
+所有科学不过是日常思考的不断完善而已。  ——Albert Einstein 市场通常是组织经济活动的一种好方法 20世纪80年代苏联和东欧的解体是2…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/经济学原理-市场/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/经济学原理-市场/</guid><pubDate>Tue, 04 Feb 2020 21:09:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;font size=1 margin-bootom=0&gt;选自《经济学原理》仅作为理论参考&lt;/font&gt;&lt;br/&gt;
+&lt;font size=1 margin-bootom=0&gt;所有科学不过是日常思考的不断完善而已。  ——Albert Einstein&lt;/font&gt;&lt;/p&gt;
+&lt;h4&gt;市场通常是组织经济活动的一种好方法&lt;/h4&gt;
 &lt;p&gt;20世纪80年代苏联和东欧的解体是20世纪世界上最大的变化之一。中央计划经济国家运行的前提假设是，政府官员能最佳地配置经济中的稀缺资源。这些中央计划者决定，生产什么物品与服务、生产多少，以及谁生产和消费这些物品与服务。支撑中央计划的理论是，只有政府才能以促进整个社会经济福利的方式组织经济活动。&lt;/p&gt;
 &lt;p&gt;大部分曾经是中央计划经济的国家已经放弃了这种制度，代之以发展市场经济。在&lt;strong&gt;市场经济(market economy)&lt;/strong&gt;中，中央计划者的决策被千百万企业和家庭的决策所取代。企业决定雇佣谁和生产什么。家庭决定为哪家企业工作，以及用自己的收入购买什么。这些企业和家庭在市场上相互交易，价格和利己引导着他们的决策。&lt;/p&gt;
 &lt;p&gt;乍眼一看，市场经济的成功是一个谜。毕竟，在市场经济中，没有一个人追求整个社会的经济福利。自由市场包括大量物品与服务的许多买着与卖者，而所有人都只关心自己的福利。尽管市场中存在的是分散的决策和利己的决策者，但事实已经证明，市场经济在以一种促进总体经济福利的方式组织经济活动方面非常成功。&lt;/p&gt;
 &lt;p&gt;经济学家亚当•斯密(Adam Smith)在其1776年出版的著作《国民财富的性质和原因的研究》中提出了全部经济学中最著名的观察结果：家庭和企业在市场上相互交易，他们仿佛被一只“看不见的手”所指引，并导致了合意的市场结果。&lt;/p&gt;
 &lt;p&gt;价格就是看不见的手用来指引经济活动的工具。在任何一个市场上，当买着决定需求多少时，他们盯着价格；当卖者决定公鸡多少时，他们也盯着价格。作为买着与卖者决策的结果，市场价格既反映了一种物品的社会价值，也反映了生产该物品的社会成本。斯密的重要洞察是，价格会自发调整，指引这些单个买着和买者达到某种结果，该结果在大多数情况下会实现这个社会福利的最大化。&lt;/p&gt;
-&lt;p&gt;斯密的观点有一个重要的推论：当政府阻止价格根据供求状况自发调整时，它就限制了看不见的手对组成经济的千百万家庭和企业的决策进行协调的能力。这个推论解释了为什么税收对资源配置有不利的影响：由于税收扭曲了价格，从而也扭曲了家庭和企业的决策。这个推论还解释了像租金控制这类直接控制价格的政策所引起的巨大危害。而且，这个推论解释了中央计划经济的失败。在中央计划经济国家，价格并不是在市场上决定的，而是由中央计划者规定的。这些计划者缺乏关于消费者爱好和生产者成本的必要信息，而在市场经济中这些信息都反映在价格上。中央计划者之所以失败，是因为他们在管理经济时把市场这只可能不见的手绑起来了。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SQL执行过程]]></title><link>https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</guid><pubDate>Thu, 30 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[5个核心SQL语句]]></title><description><![CDATA[select select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样： select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、或者甚至是一个select语句的结果。 insert…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</guid><pubDate>Mon, 27 Jan 2020 19:11:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;斯密的观点有一个重要的推论：当政府阻止价格根据供求状况自发调整时，它就限制了看不见的手对组成经济的千百万家庭和企业的决策进行协调的能力。这个推论解释了为什么税收对资源配置有不利的影响：由于税收扭曲了价格，从而也扭曲了家庭和企业的决策。这个推论还解释了像租金控制这类直接控制价格的政策所引起的巨大危害。而且，这个推论解释了中央计划经济的失败。在中央计划经济国家，价格并不是在市场上决定的，而是由中央计划者规定的。这些计划者缺乏关于消费者爱好和生产者成本的必要信息，而在市场经济中这些信息都反映在价格上。中央计划者之所以失败，是因为他们在管理经济时把市场这只可能不见的手绑起来了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;font size=3&gt;亚当•斯密与看不见的手&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=3&gt;这也许只是一种巧合：亚当•斯密的伟大著作《国民财富的性质和原因的研究》是在1776年出版的，而正好是在这一年，美国革命者签署了《独立宣言》。但是，这两部文献都有一个在当时很流行的观点——让人们各行其是，而不要让政府沉重的手来指导他们的行为，结果往往会最好。这种政治哲学为市场经济，从更一般的意义上来说则是为自由社会提供了理论基础。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=3&gt;为什么分散的市场经济运行得这么好？这是因为可以指望人们友爱而仁慈地相互对待吗？完全不是。在这本书中，亚当•斯密描述了市场经济中人们如何相互影响：&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;font size=2&gt;人类几乎随时随地都需要同胞的协助，要想仅仅依赖他人的恩惠，那是绝对不行的。它如果能够刺激他人的利己心，使其有利于他，并告诉其他人，给他做事是对他们自己有利的，那么他要达到目的就容易得多了。…请给我们我所需要得东西吧，同时，你也可以获得你所要的东西：之句话是交易的通义。我们所需要的相互帮忙，大部分是依照这个方法取得的。&lt;/font&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;font size=2&gt;我们每天所需要的食物和饮料，不是出自屠户、酿酒师或面包师的恩惠，而是出自他们利己的打算。我们不说唤起他们利他心的话，而说唤起他们利己心的话。我们不说自己有需要，而说对他们有利。社会上，除乞丐外，没有一个人愿意全然靠别人的恩惠过活。…&lt;/font&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;font size=2&gt;每一个人…既不打算促进公共的利益，也不知道自己是在何种程度上促进那种利益…他所盘算的也只是他自己的利益。在这种场合下，像在其他许多场合一样，他受着一只看不见的手的引导，去尽力达到一个并非他本意想要达到的目的。也并不因为不是出于本意，就对社会有害。他追求自己的利益，往往使他能比在真正出于本意的情况下更有效地促进社会的利益。&lt;/font&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font size=3&gt;斯密是说，经济参与者受利己心所驱动，而市场上这只看不见的手指引这种利己心去促进总体的经济福利。&lt;/font&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;政府有时可以改善市场结果&lt;/h4&gt;
+&lt;p&gt;…我们说政府有时可以改善市场结果并不意味着它总会这样。公共政策并不是天使制定的，而是由不完善的政治程序制定的。&lt;del&gt;有时所设计的政策只是为了有利于政治上有权势的人&lt;/del&gt;；有时政策是由动机良好但信息不充分的领导人制定的。当你学了经济学以后，你就能更好地判断一项政府政策什么时候是正确的，因为它促进了效率或者平等，而什么时候是不正确的。&lt;/p&gt;
+&lt;h4&gt;当政府发行了过多货币时，物价上升&lt;/h4&gt;
+&lt;p&gt;…是什么引起了通货膨胀？在大多数严重或持续的通货膨胀情况下，罪魁祸首是货币量的增长。当一国政府发行了大量本国货币时，货币的价值就下降了。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SQL执行过程]]></title><link>https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-SQL执行过程/</guid><pubDate>Thu, 30 Jan 2020 18:19:32 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[5个核心SQL语句]]></title><description><![CDATA[select select 语句用来从一个或多个表中或其他数据库对象中提取数据，一般的select语句就像这样： select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、或者甚至是一个select语句的结果。 insert…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/SQL-5个核心SQL语句/</guid><pubDate>Mon, 27 Jan 2020 19:11:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;

@@ -54,7 +54,7 @@ class BlogIndex extends React.Component {
                         </Link>
                       </div>
                       <div className="hover-item center">
-                        <Link to={node.fields.slug} className="bt-default white-fill large vote-now">VOTE NOW</Link>
+                        <Link to={node.fields.slug} className="bt-default white-fill large vote-now">查看更多</Link>
                       </div>
                     </glamorous.Figure>
                     <div className="box-info">
