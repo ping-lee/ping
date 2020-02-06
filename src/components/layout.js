@@ -63,7 +63,6 @@ class Awwwards extends React.Component {
                         <div className="top">
                             <div className="header">
                                 <div className="pull-left">
-                                    
                                 <DarkModeToggle ph="15px" handleDark={(value) => this.setState({isDark: value})} />
                                 </div>
                                 <div className="pull-right" onClick={() => {if (isOpen) this.setState({isOpen: false})}}>
@@ -203,7 +202,7 @@ class Awwwards extends React.Component {
                                 }>
                                     <div className="box-left">
                                         <div className="box-input">
-                                        <input type="text" id="search-text" placeholder="输入搜索内容" autocomplete="off" class="search-input js-search-input" value=""/>
+                                        <input type="text" id="search-text" placeholder="输入搜索内容" className="search-input"/>
                                         </div>
                                     </div>
                                     <div className="box-right">

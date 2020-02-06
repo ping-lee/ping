@@ -3,14 +3,31 @@ import { Link, graphql } from "gatsby"
 
 import "prismjs/themes/prism.css"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+import 'gitalk/dist/gitalk.css'
+import Gitalk from 'gitalk'
+
 import '../styles/blog-post.css'
 
 class BlogPostTemplate extends React.Component {
+
+  componentDidMount() {
+    console.log(window.location.pathname)
+    const gitalk = new Gitalk({
+      clientID: 'Iv1.2e376f7f9280d3c3',
+      clientSecret: '44ccc402e7586e4317cacbab4fed178f6603058f',
+      repo: 'ping',
+      owner: 'ping-lee',
+      admin: ['ping-lee'],
+      id: window.location.pathname,      // Ensure uniqueness and length less than 50
+      distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+    
+    gitalk.render('gitalk-container')
+  }
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -52,7 +69,7 @@ class BlogPostTemplate extends React.Component {
               }}
             />
             <footer>
-              <Bio />
+              <div id="gitalk-container"></div>
             </footer>
           </article>
         </div>
@@ -83,6 +100,7 @@ class BlogPostTemplate extends React.Component {
             </li>
           </ul>
         </nav>
+
       </Layout>
     )
   }
