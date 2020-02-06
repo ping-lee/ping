@@ -10,19 +10,21 @@ import { rhythm, scale } from "../utils/typography"
 import 'gitalk/dist/gitalk.css'
 import Gitalk from 'gitalk'
 
+import SHA1 from 'crypto-js/sha1'
+
 import '../styles/blog-post.css'
 
 class BlogPostTemplate extends React.Component {
 
   componentDidMount() {
-    console.log(window.location.pathname)
+    console.log(SHA1(window.location.pathname).toString())
     const gitalk = new Gitalk({
       clientID: 'd34b0b7810e373619fcc',
       clientSecret: 'be07ade51d1476d7bf8778433f9fe126143a434e',
       repo: 'ping',
       owner: 'ping-lee',
       admin: ['ping-lee'],
-      id: window.location.pathname,      // Ensure uniqueness and length less than 50
+      id: SHA1(window.location.pathname).toString(),      // Ensure uniqueness and length less than 50
       distractionFreeMode: false  // Facebook-like distraction free mode
     })
     
