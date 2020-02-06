@@ -17,8 +17,8 @@ class BlogPostTemplate extends React.Component {
   componentDidMount() {
     console.log(window.location.pathname)
     const gitalk = new Gitalk({
-      clientID: 'Iv1.2e376f7f9280d3c3',
-      clientSecret: '44ccc402e7586e4317cacbab4fed178f6603058f',
+      clientID: 'd34b0b7810e373619fcc',
+      clientSecret: 'be07ade51d1476d7bf8778433f9fe126143a434e',
       repo: 'ping',
       owner: 'ping-lee',
       admin: ['ping-lee'],
