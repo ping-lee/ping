@@ -12,12 +12,17 @@ import Gitalk from 'gitalk'
 
 import SHA1 from 'crypto-js/sha1'
 
+//import mediumZoom from 'medium-zoom'
+
 import '../styles/blog-post.css'
 
 class BlogPostTemplate extends React.Component {
 
   componentDidMount() {
     console.log(SHA1(window.location.pathname).toString())
+
+    //mediumZoom(document.querySelectorAll('img'))
+
     const gitalk = new Gitalk({
       clientID: 'd34b0b7810e373619fcc',
       clientSecret: 'be07ade51d1476d7bf8778433f9fe126143a434e',
