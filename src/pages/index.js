@@ -1,164 +1,564 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import Image from "gatsby-image"
-import glamorous from 'glamorous';
-//import Bio from "../components/bio"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
+import '../styles/index.scss';
 
-import '../styles/index.scss'
+import dude from '../../static/dude2.png';
 
-class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
-    const { author } = data.site.siteMetadata
-
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <div className="grid">
-          <ul className="list-items list-flex">
-            {posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            const profile = node.frontmatter.profile
-            return (
-                <li className="col-3" key={node.fields.slug}>
-                  <div className="box-item">
-                    <glamorous.Figure className="rollover">
-                      <div className="hover-cover"></div>
-                      <div to={node.fields.slug}>
-                        <div className="box-photo">
-                          <Image
-                            fluid={profile.childImageSharp.fluid} 
-                            alt="Oops!!!" 
-                            className="lazy lazy-loaded"
-                          />
-                        </div>
-                        <div className="hover-item top">
-                          <span className="bt-item bt-default bt-likeit js-bt-like js-collect-like ">
-                            <svg className="ico-svg" viewBox="0 0 15 14">
-                              <path d="M7.504,14C-0.305,7.809-0.02,5.619,0.007,3.801C0.032,2.101,1.406,0,3.705,0s3.698,2.5,3.698,2.5 S8.902,0,11.201,0s3.798,2.101,3.798,3.801C14.999,5.601,15.198,7.801,7.504,14"></path>
-                            </svg>
-                            <span className="number">138</span>
-                          </span>
-                          <strong className="bt-item bt-default js-collect">Collect</strong>
-                        </div>
-                      </div>
-                      <div className="hover-item bottom">
-                        <Link to="/" className="bt-item bt-link">
-                          <svg className="ico-svg" viewBox="0 0 22.24 14">
-                            <path d="M13.84,14V9.801C8.492,8.463,4.42,9.041,0.408,12.144c-0.05,0.038-0.101,0.078-0.15,0.117 c-0.137,0.104-0.192,0.103-0.226,0.077c-0.035-0.027-0.055-0.066,0.014-0.234c0.092-0.228,0.196-0.445,0.298-0.658 C3.208,5.443,7.902,4.2,13.84,4.2V0l8.4,7L13.84,14z"></path>
-                          </svg>
-                        </Link>
-                      </div>
-                      <div className="hover-item center">
-                        <Link to={node.fields.slug} className="bt-default white-fill large vote-now">查看更多</Link>
-                      </div>
-                    </glamorous.Figure>
-                    <div className="box-info">
-                      <div className="bcontent">
-                        <div className="row">
-                          <h3><Link to={node.fields.slug}>{title}</Link></h3>
-                        </div>
-                        <div className="row row-2col">
-                          <div className="box-left">来自：{node.frontmatter.lo}</div>
-                          <div className="box-right">{node.frontmatter.date}</div>
-                        </div>
-                      </div>
-                      <div className="footer style2">
-                        <div className="box-left">
-                          <div className="box-byuser">
-                            <div className="item">
-                              <a>
-                              <Image
-                                fixed={data.avatar.childImageSharp.fixed}
-                                alt={author}
-                                style={{
-                                  width: `26px`,
-                                  height: `26px`,
-                                  verticalAlign: `middle`,
-                                  borderRadius: `500%`,
-                                }}
-                                imgStyle={{
-                                  borderRadius: `50%`,
-                                }}
-                              />
-                              </a>
-                            </div>
-                            <div className="by">
-                              通过
-                            </div>
-                            <strong><a href="/" className="text-block">Tristan</a></strong>
-                          </div>
-                        </div>
-                        <div className="box-right">
-                          <ul className="list-tags size-small">
-                            <li className="hm">
-                              <div className="tooltip">
-                                <span className="item item-hm">HM</span>
-                              </div>
-                            </li>
-                            <li className="sotd">
-                              <div className="tooltip">
-                                <span className="item item-sotd">SOTD</span>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
-      </Layout>
-    )
-  }
+// Birds 
+class  Vtr  {
+    constructor(x,y,z){
+        this.x=x||0;
+        this.y=y||0;
+        this.z=z||0;
+        this.fl=1000;
+    }
+    Pt = function(){
+        var zsc=this.fl+this.z;
+        var scale=this.fl/zsc;
+        var x=this.x*scale;
+        var y=this.y*scale;
+        return{x:x,y:y,scale:scale};
+    }
+    set = function(x,y,z){
+        this.x=x;
+        this.y=y;
+        this.z=z;
+        return this;
+    }
+    len = function(){return Math.sqrt(this.x*this.x+this.y*this.y+this.z*this.z);}
+    add = function(v,w){this.x+=v.x;this.y+=v.y;this.z+=v.z;return this;}
+    sub = function(v,w){this.x-=v.x;this.y-=v.y;this.z-=v.z;return this;}
+    subv = function(a,b){this.x=a.x-b.x;this.y=a.y-b.y;this.z=a.z-b.z;return this;}
+    scale = function(upd){this.x*=upd;this.y*=upd;this.z*=upd;return this;}
+    lowscale = function(upd){if(upd!==0){var inv=1/upd;this.x*=inv;this.y*=inv;this.z*=inv;}else{this.x=0;this.y=0;this.z=0;}return this;}
+    // copy = function(v){this.x=v.x;this.y=v.y;this.z=v.z;return this;}
+    dst = function(v){return Math.sqrt(this.dsq(v));}
+    dsq = function(v){var dx=this.x-v.x;var dy=this.y-v.y;var dz=this.z-v.z;return dx*dx+dy*dy+dz*dz;}
+    cross = function(v,w){var x=this.x,y=this.y,z=this.z;this.x=y*v.z-z*v.y;this.y=z*v.x-x*v.z;this.z=x*v.y-y*v.x;return this;}
+    p = function(v){return this.x*v.x+this.y*v.y+this.z*v.z;}
+    level = function(){return this.lowscale(this.len());}
+    copy = function(){return new Vtr(this.x,this.y,this.z);}
 }
 
-export default BlogIndex
+class Build {
+	constructor(){ 
+		this.base= 0;
+		this.left= 1;
+		this.right= 2;
+		this.pos= new Vtr();
+		this.rot= new Vtr();
+		this.bbase= this.tri(this.base);
+		this.leftwing= this.tri(this.left);
+		this.rightwing= this.tri(this.right);
+	}
+	matrix = function(){
+		this.bbase.vtx();
+		this.leftwing.vtx();
+		this.rightwing.vtx();
+		this.leftwing.wingY(this.wY);
+		this.rightwing.wingY(this.wY);
+		this.bbase.rotY(this.rot.y);
+		this.bbase.rotZ(this.rot.z);
+		this.leftwing.rotY(this.rot.y);
+		this.leftwing.rotZ(this.rot.z);
+		this.rightwing.rotY(this.rot.y);
+		this.rightwing.rotZ(this.rot.z);
+		this.bbase.trans(this.pos);
+		this.leftwing.trans(this.pos);
+		this.rightwing.trans(this.pos);
+	}
+	draw = function(){
+		this.bbase.draw();
+		this.leftwing.draw();
+		this.rightwing.draw();
+	}
+	tri = function(i){
+		var v1,v2,v3,v;
+		v=Bird.v[Bird.beak[i][0]];
+		v1=new Vtr(v[0],v[1],v[2]);
+		v=Bird.v[Bird.beak[i][1]];
+		v2=new Vtr(v[0],v[1],v[2]);
+		v=Bird.v[Bird.beak[i][2]];
+		v3=new Vtr(v[0],v[1],v[2]);
+		return new Tri(v1,v2,v3);
+	}
+	wang = function(y){
+		var v1=Bird.v[Bird.beak[1][1]];
+		this.rot.x=Math.atan2(y,v1[0]);
+	}
+	zpos = function(){var z1=this.bbase._z();var z2=this.leftwing._z();var z3=this.rightwing._z();return Math.min(z1,z2,z3);}
+	wing = function(y){this.wY=y;}
+}
 
-export const pageQuery = graphql`
-  query {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
+class obj {
+	constructor() {
+		this.vtr= new Vtr();
+		// accel: null,
+		this.width = 600;
+		this.height = 600;
+		this.depth = 300;
+		this.ept = null;
+		this.area = 200;
+		this.msp = 4;
+		this.mfrc = 0.1;
+		this.coll = false;
+		this.pos = new Vtr();
+		this.vel = new Vtr();
+		this.accel = new Vtr();
+	}
+	_coll = function(value){this.coll=value;}
+	param = function(w,h,dth){this.width=w;this.height=h;this.depth=dth;}
+	run = function(b){
+		if(this.coll){
+			this.vtr.set(-this.width,this.pos.y,this.pos.z);
+			this.vtr=this.detect(this.vtr);
+			this.vtr.scale(5);
+			this.accel.add(this.vtr);
+			this.vtr.set(this.width,this.pos.y,this.pos.z);
+			this.vtr=this.detect(this.vtr);
+			this.vtr.scale(5);
+			this.accel.add(this.vtr);
+			this.vtr.set(this.pos.x,-this.height,this.pos.z);
+			this.vtr=this.detect(this.vtr);
+			this.vtr.scale(5);
+			this.accel.add(this.vtr);
+			this.vtr.set(this.pos.x,this.height,this.pos.z);
+			this.vtr=this.detect(this.vtr);
+			this.vtr.scale(5);
+			this.accel.add(this.vtr);
+			this.vtr.set(this.pos.x,this.pos.y,-this.depth);
+			this.vtr=this.detect(this.vtr);
+			this.vtr.scale(5);
+			this.accel.add(this.vtr);
+			this.vtr.set(this.pos.x,this.pos.y,this.depth);
+			this.vtr=this.detect(this.vtr);
+			this.vtr.scale(5);
+			this.accel.add(this.vtr);
+		}
+		if(Math.random()>0.5){this.fly(b);}
+		this.move();
+	}
+	fly = function(b){
+		if(this.ept){this.accel.add(this.meet(this.ept,0.005));}
+		this.accel.add(this.line(b));
+		this.accel.add(this.togeth(b));
+		this.accel.add(this.apart(b));
+	}
+	move = function(){
+		this.vel.add(this.accel);
+		var l=this.vel.len();
+		if(l>this.msp){this.vel.lowscale(l/this.msp);}
+		this.pos.add(this.vel);
+		this.accel.set(0,0,0);
+	}
+	detect = function(pt){
+		var dir=new Vtr();
+			dir.copy(this.pos);
+			dir.sub(pt);
+			dir.scale(1/this.pos.dsq(pt));
+			return dir;
+	}
+	rep = function(pt){
+		var dist=this.pos.dst(pt);
+		if(dist<150){
+			var dir=new Vtr();
+				dir.subv(this.pos,pt);
+				dir.scale(0.5/dist);
+				this.accel.add(dir);
+		}
+	}
+	meet = function(pt,amt){
+		var dir=new Vtr();
+			dir.subv(pt,this.pos);
+			dir.scale(amt);
+			return dir;
+	}
+	line = function(b){
+		var _b,
+			totvel=new Vtr(),
+			cnt=0;
+		for(var i=0,il=b.length;i<il;i++){
+			if(Math.random()>0.6)continue;
+			_b=b[i];
+			var dist=_b.pos.dst(this.pos);
+			if(dist>0&&dist<=this.area){
+				totvel.add(_b.vel);
+				cnt++;
+			}
+		}
+		if(cnt>0){
+			totvel.lowscale(cnt);
+			var v=totvel.len();
+			if(v>this.mfrc){
+				totvel.lowscale(v/this.mfrc);
+			}
+		}
+		return totvel;
+	}
+	togeth = function(b){
+		var _b,
+			dist,
+			plus=new Vtr(),
+			dir=new Vtr(),
+			cnt=0;
+			for(var i=0,il=b.length;i<il;i++){
+				if(Math.random()>0.6)continue;
+				_b=b[i];
+				dist=_b.pos.dst(this.pos);
+				if(dist>0&&dist<=this.area){
+					plus.add(_b.pos);cnt++;
+				}
+			}
+			if(cnt>0){
+				plus.lowscale(cnt);
+			}
+			dir.subv(plus,this.pos);
+			var l=dir.len();
+			if(l>this.mfrc){
+				dir.lowscale(l/this.mfrc);
+			}
+			return dir;
+	}
+	apart = function(b){
+		var _b,
+			dist,
+			plus=new Vtr(),
+			rep=new Vtr();
+			for(var i=0,il=b.length;i<il;i++){
+				if(Math.random()>0.6)continue;
+				_b=b[i];
+				dist=_b.pos.dst(this.pos);
+				if(dist>0&&dist<=this.area){
+					rep.subv(this.pos,_b.pos);
+					rep.level();
+					rep.lowscale(dist);
+					plus.add(rep);
+				}
+			}
+			return plus;
+	}
+}
+
+class Tri {
+	constructor(p1,p2,p3){
+		this.mainv=[p1.copy(),p2.copy(),p3.copy()];
+		this.Vtxs=[p1.copy(),p2.copy(),p3.copy()];
+		this.bv=new Vtr(0.5,0.5,0.8);
+	}
+	draw = function(){
+		var v1=[this.Vtxs[0].Pt().x,this.Vtxs[0].Pt().y];
+		var v2=[this.Vtxs[1].Pt().x,this.Vtxs[1].Pt().y];
+		var v3=[this.Vtxs[2].Pt().x,this.Vtxs[2].Pt().y];
+		var col=this.col();Bird.$.fillStyle=col;
+		Bird.$.strokeStyle=col;
+		Bird.$.lineWidth=0.1;
+		Bird.$.beginPath();
+		Bird.$.moveTo(v1[0],v1[1]);
+		Bird.$.lineTo(v2[0],v2[1]);
+		Bird.$.lineTo(v3[0],v3[1]);
+		Bird.$.lineTo(v1[0],v1[1]);
+		Bird.$.closePath();
+		Bird.$.fill();
+		Bird.$.stroke();
+	}
+	rotX = function(a){var ang=a;this.Vtxs.forEach(function(e,i,a){Bird.Matrix.rotX(e,ang);});}
+	rotY = function(a){var ang=a;this.Vtxs.forEach(function(e,i,a){Bird.Matrix.rotY(e,ang);});}
+	rotZ = function(a){var ang=a;this.Vtxs.forEach(function(e,i,a){Bird.Matrix.rotZ(e,ang);});}
+	trans = function(s){var trans=s;this.Vtxs.forEach(function(e,i,a){Bird.Matrix.trans(e,[trans.x,trans.y,trans.z]);});}
+	vtx = function(idx){
+		for(var i=0;i<3;i++){
+			var x=this.mainv[i].x;
+			var y=this.mainv[i].y;
+			var z=this.mainv[i].z;
+			this.Vtxs[i].x=x;
+			this.Vtxs[i].y=y;
+			this.Vtxs[i].z=z;
+		}
+	}
+	wingY = function(y){this.Vtxs[0].y=y;}
+	_z = function(){return Math.min(this.Vtxs[0].z,this.Vtxs[1].z,this.Vtxs[2].z);}
+	col = function(){
+		var e=0.3,f=0.3,g=0.7;
+		var bw=new Vtr(1,1,1);
+		var n=this.norm();
+		var x=this.Vtxs[0].copy();
+		var v=x.sub(Bird.V);
+		v.level();
+		x=this.Vtxs[0].copy();
+		var l=x.sub(Bird.L);
+		l.level();
+		var p=l.p(n);
+		var x1=n.copy();
+		x1.scale(p);
+		x1.scale(2);
+		var r=l.copy();
+		r.sub(x1);
+		x1.scale(-1);
+		p=Math.max(x1.p(l),0);
+		var col=this.bv.copy();
+		col.scale(p);
+		col.scale(col,e);
+		x1=col.copy();
+		var x2=r.copy();
+		x2.scale(-1);
+		p=Math.pow(Math.max(x2.p(v)),20);
+		x2=bw.copy();
+		x2.scale(p*f);
+		var x3=this.bv.copy();
+		x3.scale(g);
+		x1.add(x2);
+		x1.add(x3);
+		var _r=Math.floor(x1.x*75);
+		var _g=Math.floor(x1.y*75);
+		var _b=Math.floor(x1.z*75);return'rgb('+_r+','+_g+','+_b+')';
+	}
+	norm = function(){
+		var v1=this.Vtxs[0];
+		var v2=this.Vtxs[1];
+		var v3=this.Vtxs[2];
+		v3.sub(v2);
+		v1.sub(v3);
+		v3.cross(v1);
+		v3.level();
+		return v3;
+	}
+}
+
+let Bird={
+	def: function(n,m,s){
+		if(m)this.e(n.prototype,m);
+		if(s)this.e(n,s);return n;
+	},
+	e: function(o,p){
+		for(let prop in p)o[prop]=p[prop];return o;
+	},
+    v: [[5,0,0],[-5,-2,1],[-5,0,0],[-5,-2,-1],[0,2,-6],[0,2,6],[2,0,0],[-3,0,0]],
+    beak: [[0,1,2],[4,7,6],[5,6,7]],
+    L: null,
+    V:{x:0,y:0,z:5000},
+    obj: {
+        
+    },
+    
+    
+    Matrix: {
+        rotX:function(pt,angX){
+            var pos=[pt.x,pt.y,pt.z];
+            var asin=Math.sin(angX);
+            var acos=Math.cos(angX);
+            var xrot=[];xrot[0]=[1,0,0];
+            xrot[1]=[0,acos,asin];
+            xrot[2]=[0,-asin,acos];
+            var calc=this.mm(pos,xrot);
+            pt.x=calc[0];
+            pt.y=calc[1];
+            pt.z=calc[2];
+        },
+        rotY:function(pt,angY){
+            var pos=[pt.x,pt.y,pt.z];
+            var asin=Math.sin(angY);
+            var acos=Math.cos(angY);
+            var yrot=[];
+            yrot[0]=[acos,0,asin];
+            yrot[1]=[0,1,0];
+            yrot[2]=[-asin,0,acos];
+            var calc=this.mm(pos,yrot);
+            pt.x=calc[0];
+            pt.y=calc[1];
+            pt.z=calc[2];
+        },
+        rotZ:function(pt,angZ){
+            var pos=[pt.x,pt.y,pt.z];
+            var asin=Math.sin(angZ);
+            var acos=Math.cos(angZ);
+            var yrot=[];
+            yrot[0]=[acos,asin,0];
+            yrot[1]=[-asin,acos,0];
+            yrot[2]=[0,0,1];
+            var calc=this.mm(pos,yrot);
+            pt.x=calc[0];
+            pt.y=calc[1];
+            pt.z=calc[2];
+        },
+        trans:function(pt,s){
+            pt.x+=s[0];
+            pt.y+=s[1];
+            pt.z+=s[2];
+        },
+        scale:function(pt,s){
+            pt.x*=s[0];
+            pt.y*=s[1];
+            pt.z*=s[2];
+        },
+        mm:function(m1,m2){
+            var calc=[];
+            calc[0]=m1[0]*m2[0][0]+m1[1]*m2[1][0]+m1[2]*m2[2][0];calc[1]=m1[0]*m2[0][1]+m1[1]*m2[1][1]+m1[2]*m2[2][1];
+            calc[2]=m1[0]*m2[0][2]+m1[1]*m2[1][2]+m1[2]*m2[2][2];
+            return calc;
         }
-      }
     }
-    site {
-      siteMetadata {
-        title
-        author
-      }
+}
+
+class IndexPage extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.bgImage = null;
+        this.dude = null;
+        this.birds = null;
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, filter: {frontmatter: {date: {ne: null}}}) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MM月DD日, YYYY")
-            title
-            lo
-            description
-            profile {
-              childImageSharp {
-                fluid(maxWidth: 417, maxHeight: 298) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+
+    Bird={
+        def: function(n,m,s){
+            if(m)this.e(n.prototype,m);
+            if(s)this.e(n,s);return n;
+        },
+        e: function(o,p){
+            for(let prop in p)o[prop]=p[prop];return o;
+        },
+        v: [[5,0,0],[-5,-2,1],[-5,0,0],[-5,-2,-1],[0,2,-6],[0,2,6],[2,0,0],[-3,0,0]],
+        beak: [[0,1,2],[4,7,6],[5,6,7]],
+        L: null,
+        V:{x:0,y:0,z:5000},
+        obj: {
+            
+        },
+        
+        
+        Matrix: {
+            rotX:function(pt,angX){
+                var pos=[pt.x,pt.y,pt.z];
+                var asin=Math.sin(angX);
+                var acos=Math.cos(angX);
+                var xrot=[];xrot[0]=[1,0,0];
+                xrot[1]=[0,acos,asin];
+                xrot[2]=[0,-asin,acos];
+                var calc=this.mm(pos,xrot);
+                pt.x=calc[0];
+                pt.y=calc[1];
+                pt.z=calc[2];
+            },
+            rotY:function(pt,angY){
+                var pos=[pt.x,pt.y,pt.z];
+                var asin=Math.sin(angY);
+                var acos=Math.cos(angY);
+                var yrot=[];
+                yrot[0]=[acos,0,asin];
+                yrot[1]=[0,1,0];
+                yrot[2]=[-asin,0,acos];
+                var calc=this.mm(pos,yrot);
+                pt.x=calc[0];
+                pt.y=calc[1];
+                pt.z=calc[2];
+            },
+            rotZ:function(pt,angZ){
+                var pos=[pt.x,pt.y,pt.z];
+                var asin=Math.sin(angZ);
+                var acos=Math.cos(angZ);
+                var yrot=[];
+                yrot[0]=[acos,asin,0];
+                yrot[1]=[-asin,acos,0];
+                yrot[2]=[0,0,1];
+                var calc=this.mm(pos,yrot);
+                pt.x=calc[0];
+                pt.y=calc[1];
+                pt.z=calc[2];
+            },
+            trans:function(pt,s){
+                pt.x+=s[0];
+                pt.y+=s[1];
+                pt.z+=s[2];
+            },
+            scale:function(pt,s){
+                pt.x*=s[0];
+                pt.y*=s[1];
+                pt.z*=s[2];
+            },
+            mm:function(m1,m2){
+                var calc=[];
+                calc[0]=m1[0]*m2[0][0]+m1[1]*m2[1][0]+m1[2]*m2[2][0];calc[1]=m1[0]*m2[0][1]+m1[1]*m2[1][1]+m1[2]*m2[2][1];
+                calc[2]=m1[0]*m2[0][2]+m1[1]*m2[1][2]+m1[2]*m2[2][2];
+                return calc;
             }
-          }
         }
-      }
     }
-  }
-`
+
+    draw = (c) => {
+        // var c = document.getElementById('canv');
+        Bird.$=c.getContext("2d");
+        Bird.canv={w:c.width=window.innerWidth,h:c.height=window.innerHeight};
+        Bird.L=new Vtr(0,2000,5000);
+        Bird.V=new Vtr(0,0,5000);
+        let birds=[];
+        let b=[];
+        for(let i=0;i<100;i++){
+            let _b=b[i]=new obj();
+            _b.pos.x=Math.random()*800-400;
+            _b.pos.y=Math.random()*800-400;
+            _b.pos.z=Math.random()*800-400;
+            _b.vel.x=Math.random()*2-1;
+            _b.vel.y=Math.random()*2-1;
+            _b.vel.z=Math.random()*2-1;
+            _b._coll(true);
+            _b.param(400,400,800);
+            let bird=birds[i]=new Build();
+            bird.phase=Math.floor(Math.random()*62.83);
+            bird.pos=b[i].pos;
+        }
+        
+        run();
+        function run(){
+            Bird.$.setTransform(1,0,0,1,0,0);
+            Bird.$.translate(Bird.canv.w/2,Bird.canv.h/2);
+            Bird.$.clearRect(-Bird.canv.w/2,-Bird.canv.h/2,Bird.canv.w,Bird.canv.h);
+            Bird.$.scale(1,-1);
+            let arr=[];
+            b.forEach(
+                function(e,i,a){
+                    let _b=b[i];
+                    _b.run(b);	
+                    let bird=birds[i];
+                        bird.rot.y=Math.atan2(-_b.vel.z,_b.vel.x);
+                        bird.rot.z=Math.asin(_b.vel.y/_b.vel.len());
+                        bird.phase=(bird.phase+(Math.max(0,bird.rot.z)+0.1))%62.83;
+                        bird.wing(Math.sin(bird.phase)*5);
+                        bird.matrix();
+                        arr.push({z:bird.zpos(),o:bird});
+                }
+            );
+            arr.sort(function(a,b){return a.z<b.z?-1:a.z>b.z?1:0;});
+            arr.forEach(function(e,i,a){
+                e.o.draw();  // 画出来
+            });
+
+            window.requestAnimationFrame(run);
+        }
+    }
+
+    componentDidMount() {
+        // birds
+        let c = this.birds;
+        this.draw(c);
+    }
+
+    render () {
+        return (
+            <div>
+                <SEO title="Home" />
+                <canvas ref={ node => this.birds = node } id="canv"></canvas>
+                <div className="title-main">
+                    <p className="top-titles">Tristan // Developer</p>
+                    <p className="top-titles"><Link to="/blog">博客</Link></p>
+                </div>
+                <div className="cpoyright"><a href="http://beian.miit.gov.cn">滇ICP备18008459号</a></div>
+                <div ref={ node => this.dude = node } className="dude">
+                    <img src={dude} alt="Me on a big Rock" />
+                </div>
+                <div ref={ node => this.bgImage = node } className="bg-image"></div>
+            </div>
+        )
+    }
+}
+
+export default IndexPage

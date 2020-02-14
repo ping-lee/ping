@@ -95,7 +95,7 @@ class Awwwards extends React.Component {
                                 </div>
                             </div>
                             <ul id="menu-main" className="menu">
-                                <li><span className="item"><Link to="/"><font color='#202121'>Home</font></Link></span></li>
+                                <li><span className="item"><Link to="/"><font color='#202121'>首页</font></Link></span></li>
                                 <li><span className="item">关于</span></li>
                                 <li><span className="item">摄影</span></li>
                                 <li><glamorous.A className="item" css={{
@@ -187,7 +187,7 @@ class Awwwards extends React.Component {
                                     </div>
                                 </div>
                                 <div className="logo-header">
-                                    <Link to="/" aria-label="Awwwards">
+                                    <Link to="/blog" aria-label="Awwwards">
                                         <h3 style={{marginTop: 0, marginBottom: 0}}>TristanBlog.</h3>
                                     </Link>
                                 </div>
