@@ -1,6 +1,6 @@
 ---
 title: 经济学原理笔记
-date: "2020-02-04T21:09:32.169Z"
+date: "2020-02-21T21:09:32.169Z"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 profile: "./Ftmf1guvEBGLcxtzjOjyCzPwxRJ3.jpg"
 los: 石林•昆明•云南•中国
@@ -43,3 +43,9 @@ lo: 石林
 
 #### 当政府发行了过多货币时，物价上升
 ......是什么引起了通货膨胀？在大多数严重或持续的通货膨胀情况下，罪魁祸首是货币量的增长。当一国政府发行了大量本国货币时，货币的价值就下降了。
+
+#### 作为政策顾问的经济学家
+
+> <font size=3>经济学家和政治哲学家的思想，无论正确与否，实际上都要比一般所想象的更有力量。事实上，这个世界就是由他们统治的。那些自认为能够免于受经济学家思想影响的实干家往往是某些已故经济学家的俘虏。那些当权狂人信奉的其实也不过是若干年前某些末流文人狂妄思想的零碎而已。</font>
+
+> <font size=3>如果让所有的经济学家围坐在一起，他们不会达成任何一个共识。</font>
